@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <link rel="icon" href="img/bar-menu.png" type="image/x-icon" />
+
+        <title>Dope</title>
+
+        <!-- fonts -->
+
+        <!-- fontawesome -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <!-- ionicon -->
+        <link href="vendors/ionicon/css/ionicons.min.css" rel="stylesheet">
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Animate css -->
+        <link href="vendors/animate-css/animate.css" rel="stylesheet">
+        <link href="vendors/animate-css/magic.min.css" rel="stylesheet">
+        <!-- Swiper Slider css -->
+        <link href="vendors/swiper-slider/css/swiper.min.css" rel="stylesheet">
+        <!-- Owl Slider css -->
+        <link href="vendors/owl-carousel/owl.carousel.css" rel="stylesheet">
+        <!-- Lightbox css -->
+        <link href="vendors/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="vendors/scrollbar/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+    </head>
+    <body>
+      <div id="preloader">
+            <div id="preload_inner">
+                <i class="loading"></i>
+            </div>
+        </div>
+       <div class="offcanvas_menu onepage_menu">
+           <div class="offcanvas_menu_inner">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home<i class="ion-ios-home-outline"></i></a></li>
+                    <li><a href="#about">About <i class="ion-ios-list-outline"></i></a></li>
+                    <li><a href="#feature">Feature <i class="ion-ios-lightbulb-outline"></i></a></li>
+                    <li><a href="#meetteam">Our Team <i class="ion-ios-personadd-outline"></i></a></li>
+                    <li><a href="#work">Work<i class="ion-ios-keypad-outline"></i></a></li>
+                    <li><a href="#bloglatest">Blog<i class="ion-ios-chatboxes-outline"></i></a></li>
+                    <li><a href="#contactone">Contact<i class="ion-ios-compose-outline"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--==========First Header==========-->
+        <header class="main_header_area">
+            <div class="logo_area pull-left">
+                <div class="nav-button">
+                    <span class="nos"></span>
+                    <span class="ncs"></span>
+                    <span class="nbs"></span>
+                    <span class="nbs"></span>
+                    <span class="nbs"></span>
+                    <span class="nbs"></span>
+                    <span class="nbs"></span>
+                    <span class="nbs"></span>
+                    <span class="nbs"></span>
+                </div>
+                <div class="logo">
+                    <img src="img/logo_GR.png" alt="">
+                </div>
+            </div>
+            <div class="social_area pull-right">
+                <ul class="dope_social_icon"> 
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                </ul>
+                <ul class="language">
+                    <li class="active"><a href="#">En</a></li>
+                    <li><a href="#">Pl</a></li>
+                </ul>
+            </div>
+        </header>
+        
+        <!--==========Home Slider area==========-->
+        <section class="home_slider">
+            <div class="home_slider_area">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/header.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/home-slider/slider-2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/home-slider/slider-1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/home-slider/slider-2.jpg" alt=""></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"><i class="ion-chevron-down"></i></div>
+                <div class="swiper-button-prev"><i class="ion-chevron-up"></i></div>
+            </div>
+        </section>
+        <div class="contact_form">
+            <div class="rotate_contact_btn"><span><i class="ion-email"></i><a href="#">Contact Form</a></span></div>
+        </div>
+        <!--==========End Home Slider area==========-->
+        
+        <div id="offcanvas_hide_trigger" class=""></div>
+        <!--==========First Header==========-->
+        <div class="offcanvas_from mCustomScrollbar" data-mcs-theme="dark">
+            <div class="offcanvas_inner">
+                <div class="feature_tittle">
+                    <h2>Contact Us</h2>
+                    <img src="img/tittle-dotted.jpg" alt="" class="mCS_img_loaded">
+                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. </p>
+                    <div class="close-share wr-contact-colse visover"></div>
+                </div>
+                <div class="row contac_form">
+                    <form class="form-inline">
+                        <div class="form-group col-md-12">
+                            <input type="text" class="form-control input_box" id="fullname" placeholder="Your Name">
+                            <i class="ion-person"></i>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <input type="text" class="form-control input_box" id="email2" placeholder="Your Email">
+                            <i class="ion-android-folder"></i>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <input type="text" class="form-control input_box" id="website2" placeholder="Your Website">
+                            <i class="ion-earth"></i>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea class="form-control" rows="3" placeholder="Enter a message"></textarea>
+                            <i class="ion-ios-compose"></i>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-default">Submit Your Request</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact_details_side">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="contact_information">
+                                <h5>Phones</h5>
+                                <h6>8 800 123 45 67</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="contact_information">
+                                <h5>Skype</h5>
+                                <h6>yourskypeid</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="contact_information">
+                                <h5>Follow Us</h5>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="contact_information">
+                                <h5>E-mail</h5>
+                                <h6>wwweb.invader@gmail.com</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="contact_information">
+                                <h5>Our Address</h5>
+                                <h6>Brooklyn-Battery Tunnel, New York, NY <span>USA</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--==========Design photography area==========-->
+        <section class="design_photography_area" id="about">
+            <div class="design_area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="design_inner_img">
+                                <img src="https://picsum.photos/670/520/?image=816" alt="">
+                            </div>
+                            <h3>Explore Egypt in a new way</h3>
+                            <blockquote>
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi </p> 
+                            </blockquote>
+                        </div>
+                        <div class="design_right_img">
+                            <img class="design_right_img" src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+        </section>
+        <!--==========End Design photography area==========-->
+        
+        <!--==========About dope area==========-->
+        <section class="about_dope_area">
+            <div class="single_about_dope row m0">
+                <div class="about_left">
+                    <div class="about_tittle">
+                        <h3>Amazing Tour</h3>
+                    </div>
+                    <h2>Meet the Startups in San Francisco</h2>
+                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec auctor a ornare odio.</p>
+                    <p>Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam.</p>
+                    <a class="readmore_btn" href="#">BOOK NOW<i class="ion-ios-arrow-thin-right"></i></a>
+                </div>
+                <div class="about_right">
+                    <div class="about_dope_image">
+                        <img src="https://picsum.photos/1090/640/?image=392" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="single_about_dope single_about_dope2 row m0">
+                <div class="about_right">
+                    <div class="about_dope_image">
+                        <img src="https://picsum.photos/1090/640/?image=904" alt="">
+                    </div>
+                </div>
+                <div class="about_left">
+                    <div class="about_tittle">
+                        <h3>Our Best Picks</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="single_trends">
+                                <h3>Snorkling in Hurghada</h3>
+                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="single_trends">
+                                <h3>Surfing in Bali</h3>
+                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="single_trends">
+                                <h3>Wandern in Sachsen-Anhalt</h3>
+                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="single_trends">
+                                <h3>Spargel Stechen</h3>
+                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="readmore_btn" href="#">Read More<i class="ion-ios-arrow-thin-right"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--==========End About dope area==========-->
+        
+<!--
+<div class="awesome_photography_area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <div class="awesome_text">
+                                <div class="section_tittle">
+                                    <h2>Awesome Photography Template</h2>
+                                </div>
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+                                <p>Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+                            </div>
+                            <div class="row awesome_feature">
+                                <div class="col-xs-4">
+                                    <div class="awesome_feature_element">
+                                        <i class="ion-ios-lightbulb-outline"></i>
+                                        <h5>Creative Ideas</h5>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4">
+                                    <div class="awesome_feature_element">
+                                        <i class="ion-ios-flask-outline"></i>
+                                        <h5>Special Approaches </h5>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4">
+                                    <div class="awesome_feature_element">
+                                        <i class="ion-clock"></i>
+                                        <h5>Fast Delivery</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="dope_image">
+                                <img src="img/awesome-dope.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+        <!--==========Feature area==========-->
+        <section class="feature_area" id="feature">
+            <div class="container">
+                <div class="feature_tittle">
+                    <h2>Most Popular Cities</h2>
+                    <img src="img/tittle-dotted.jpg" alt="">
+                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+                </div>
+                <div class="feature_slider">
+                    <div class="col-md-3 col-xs-6">
+                        <div class="feature_single_element">
+                            <div class="feature_img">
+                                <img src="img/miami.jpg" alt="">
+                            </div>
+                            <div class="feature_hover_content">
+                                <div class="feature_hover_content_inner">
+                                    <h4>Miami</h4>
+                                    <p>Find Tours</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="feature_single_element">
+                            <div class="feature_img">
+                                <img src="img/paris.jpg" alt="">
+                            </div>
+                            <div class="feature_hover_content">
+                                <div class="feature_hover_content_inner">
+                                    <h4>Paris</h4>
+                                    <p>Book now</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="feature_single_element">
+                            <div class="feature_img">
+                                <img src="img/newyork.jpg" alt="">
+                            </div>
+                            <div class="feature_hover_content">
+                                <div class="feature_hover_content_inner">
+                                    <h4>New York</h4>
+                                    <p>Find Tours</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="feature_single_element">
+                            <div class="feature_img">
+                                <img src="img/cairo.jpg" alt="">
+                            </div>
+                            <div class="feature_hover_content">
+                                <div class="feature_hover_content_inner">
+                                    <h4>Cairo</h4>
+                                    <p>See Tours</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==========End Feature area==========-->
+        
+		<!--==========Portfolio area==========-->
+        <section class="portfolio_area" id="work">
+            <div class="portfolio_inner_area">
+                <div class="portfolio_filter">
+                    <ul>
+                        <li class="active" data-filter="*"><a href="">
+                            All Projects
+                            <div class="cbp_filter_counter"><span>13</span></div>
+                        </a></li>
+                        <li data-filter=".photosessions"><a href="">Photosessions<div class="cbp_filter_counter"><span>6</span></div></a></li>
+                        <li data-filter=".magazine"><a href="">Magazine Layouts<div class="cbp_filter_counter"><span>3</span></div></a></li>
+                        <li data-filter=".advertisements"><a href="">Advertisements<div class="cbp_filter_counter"><span>5</span></div></a></li>
+                    </ul>
+                </div>
+                <div class="portfolio_item">
+                    <div class="grid-sizer"></div>
+                    <div class="single_facilities wd_20 photosessions">
+                        <img src="https://picsum.photos/335/670/?image=1040" alt="">
+                        <div class="portfolio_hover">
+                            <div class="portfolio_hover_inner">
+                                <h4>Germany</h4>
+                                <a href="img/portfolio/portfolio-1.jpg" data-lightbox="image-1"><i class="ion-ios-close-outline"></i>Find Tours</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single_facilities wd_30 photosessions magazine">
+                        <img src="img/france.jpg" alt="">
+                        <div class="portfolio_hover">
+                            <div class="portfolio_hover_inner">
+                               <h4>France</h4>
+                                <a href="img/portfolio/portfolio-2.jpg" data-lightbox="image-1"><i class="ion-ios-close-outline"></i>Find Tours</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single_facilities wd_50 photosessions">
+                        <img src="img/egypt.jpg" alt="">
+                        <div class="portfolio_hover">
+                            <div class="portfolio_hover_inner">
+                               <h4>Egypt</h4>
+                                <a href="img/portfolio/portfolio-3.jpg" data-lightbox="image-1"><i class="ion-ios-close-outline"></i>Find Tours</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single_facilities wd_10 advertisements">
+                        <img src="img/thailand.jpg" alt="">
+                        <div class="portfolio_hover">
+                            <div class="portfolio_hover_inner">
+                               <h4>Thailand</h4>
+                                <a href="img/portfolio/portfolio-4.jpg" data-lightbox="image-1"><i class="ion-ios-close-outline"></i>Find Tours</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single_facilities wd_10 advertisements">
+                        <img src="img/sweden.jpg" alt="">
+                        <div class="portfolio_hover">
+                            <div class="portfolio_hover_inner">
+                               <h4>Sweden</h4>
+                                <a href="img/portfolio/portfolio-5.jpg" data-lightbox="image-1"><i class="ion-ios-close-outline"></i>Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single_facilities wd_30 photosessions magazine advertisements">
+                        <img src="img/brazil.jpg" alt="">
+                        <div class="portfolio_hover">
+                            <div class="portfolio_hover_inner">
+                               <h4>Brazil</h4>
+                                <a href="img/portfolio/portfolio-6.jpg" data-lightbox="image-1"><i class="ion-ios-close-outline"></i>Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single_facilities wd_30 photosessions advertisements">
+                        <img src="img/usa.jpg" alt="">
+                        <div class="portfolio_hover">
+                            <div class="portfolio_hover_inner">
+                               <h4>USA</h4>
+                                <a href="img/portfolio/portfolio-7.jpg" data-lightbox="image-1"><i class="ion-ios-close-outline"></i>Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single_facilities wd_30 advertisements">
+                        <img src="img/indonesia.jpg" alt="">
+                        <div class="portfolio_hover">
+                            <div class="portfolio_hover_inner">
+                               <h4>Indonesia</h4>
+                                <a href="img/portfolio/portfolio-8.jpg" data-lightbox="image-1"><i class="ion-ios-close-outline"></i>Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+            <div class="client_logo_area">
+                <div class="single_logo">
+                    <img src="img/client-logo/client-logo-1.png" alt="">
+                </div>
+                <div class="single_logo">
+                    <img src="img/client-logo/client-logo-2.png" alt="">
+                </div>
+                <div class="single_logo">
+                    <img src="img/client-logo/client-logo-3.png" alt="">
+                </div>
+                <div class="single_logo">
+                    <img src="img/client-logo/client-logo-4.png" alt="">
+                </div>
+                <div class="single_logo">
+                    <img src="img/client-logo/client-logo-5.png" alt="">
+                </div>
+                <div class="single_logo">
+                    <img src="img/client-logo/client-logo-6.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!--==========End Portfolio  area==========-->
+
+
+        <!--==========Work area==========-->
+        <section class="work_area">
+            <div class="container">
+                <div class="row working_place">
+                    <div class="col-md-7">
+                        <div class="work_area_inner_content">
+                            <div class="section_tittle">
+                                <h2>Special Offer: <br>Snorkling in Hurghada</h2>
+                            </div>
+                            <div class="work_content_devider">
+                                <div class="col-md-7">
+                                    <div class="work_left_content row">
+                                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="row">
+                                        <blockquote>
+                                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor</p> 
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/770/310/?image=643" alt="">
+                </div>
+                <div class="work_process_area_main row m0">
+                    <div class="section_tittle">
+                        <h2>How GuideRepublic works</h2>
+                    </div>
+                    <div class="work_process_area row m0">
+                        <div class="row">
+                            <div class="col-md-2 col-xs-6">
+                                <div class="work_single_process">
+                                    <div class="work_process_icon">
+                                        <i class="ion-bag"></i>
+                                    </div>
+                                    <h4>Find Tour</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xs-6">
+                                <div class="work_single_process">
+                                    <div class="work_process_icon">
+                                        <i class="ion-android-stopwatch"></i>
+                                    </div>
+                                    <h4>Select Date</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xs-6">
+                                <div class="work_single_process">
+                                    <div class="work_process_icon">
+                                        <i class="ion-android-bulb"></i>
+                                    </div>
+                                    <h4>Book shit</h4>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==========End Work area==========-->
+        
+        <!--==========About dope area==========-->
+        <section class="about_dope_area why_dope_area">
+            <div class="single_about_dope row m0">
+                <div class="about_left">
+                    <div class="feature_tittle">
+                        <h2>Why GuideRepublic?</h2>
+                        <img src="img/tittle-dotted.jpg" alt="">
+                    </div>
+                    <p>Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Tincidunt non, euismod vitae, posuere imperdiet, leo.</p>
+                    <p>Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia aliquam, nisi quis porttitor congue, elit erat euismod orci.</p>
+                    <div class="work_experience_area row">
+                        <div class="single_work_lavel">
+                            <div class="single_work_lavel_inner">
+                                <i class="ion-ios-clock-outline"></i>
+                                <h4>Fast Booking</h4>
+                            </div>
+                        </div>
+                        <div class="single_work_lavel">
+                            <div class="single_work_lavel_inner">
+                                <i class="ion-ios-clock-outline"></i>
+                                <h4>Special Insider Tips</h4>
+                            </div>
+                        </div>
+                        <div class="single_work_lavel">
+                            <div class="single_work_lavel_inner">
+                                <i class="ion-ios-clock-outline"></i>
+                                <h4>Great Support</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about_right">
+                    <div class="about_dope_image">
+                        <div class="why_dope_slider">
+                            <div class="item">
+                                <img src="https://picsum.photos/1090/640/?image=883" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/why-dope-slider/dope-slider-1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/why-dope-slider/dope-slider-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==========End About dope area==========-->
+        
+       <div>
+       	<br>
+       </div>
+        
+    
+       
+        
+        <!--==========Latest post  area==========-->
+        <section class="latest_post_area" id="bloglatest">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="latest_post_inner">
+                            <div class="post_head">
+                                <h4>Our travel magazine</h4>
+                                <a href="#">Blog Page <i class="ion-android-arrow-forward"></i></a>
+                            </div>
+                            <article class="row">
+                                <div class="col-sm-6">
+                                    <div class="latest_post_content">
+                                        <div class="latest_post_img">
+                                            <img src="https://picsum.photos/370/280/?image=871" alt="">
+                                        </div>
+                                        <div class="date_category_area">
+                                            <a class="category_item" href="#">Art</a>
+                                            <a class="post_date_content" href="#">August 06, 2015</a>
+                                        </div>
+                                        <a href="single-blog.html"><h4>Fusce vulputate eleifend sapien purus quam</h4></a>
+                                        <p>Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. </p>
+                                        <a class="readmore_btn" href="#">Read More<i class="ion-ios-arrow-thin-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="latest_post_content">
+                                        <div class="latest_post_img">
+                                            <img src="https://picsum.photos/370/280/?image=845" alt="">
+                                        </div>
+                                        <div class="date_category_area">
+                                            <a class="category_item" href="#">Tech</a>
+                                            <a class="post_date_content" href="#">August 06, 2015</a>
+                                        </div>
+                                        <a href="single-blog.html"><h4>Fusce vulputate eleifend sapien purus quam</h4></a>
+                                        <p>Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. </p>
+                                        <a class="readmore_btn" href="#">Read More<i class="ion-ios-arrow-thin-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="latest_post_content">
+                                        <div class="latest_post_img">
+                                            <img src="https://picsum.photos/370/280/?image=836" alt="">
+                                        </div>
+                                        <div class="date_category_area">
+                                            <a class="category_item" href="#">Music</a>
+                                            <a class="post_date_content" href="#">August 06, 2015</a>
+                                        </div>
+                                        <a href="single-blog.html"><h4>Fusce vulputate eleifend sapien purus quam</h4></a>
+                                        <p>Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. </p>
+                                        <a class="readmore_btn" href="#">Read More<i class="ion-ios-arrow-thin-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="latest_post_content">
+                                        <div class="latest_post_img">
+                                            <img src="https://picsum.photos/370/280/?image=718" alt="">
+                                        </div>
+                                        <div class="date_category_area">
+                                            <a class="category_item" href="#">Trends</a>
+                                            <a class="post_date_content" href="#">August 06, 2015</a>
+                                        </div>
+                                        <a href="single-blog.html"><h4>Fusce vulputate eleifend sapien purus quam</h4></a>
+                                        <p>Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. </p>
+                                        <a class="readmore_btn" href="#">Read More<i class="ion-ios-arrow-thin-right"></i></a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="right_sidebar_area">
+                            
+                            <div class="right_widget twitter_widget">
+                                <div class="twitter_tittle">
+                                    <h4>Our Twitter <i class="fa fa-twitter"></i></h4>
+                                </div>
+                                <div class="twitter_content">
+                                    <div class="tweets_feed"></div>
+                                </div>
+                                <div class="twitter_more">
+                                    <h5>24 minutes ago</h5>
+                                    <a href="#">Read More <i class="ion-android-arrow-forward"></i></a>
+                                </div>
+                            </div>
+                            <div class="right_widget instagram_widget">
+                                <div class="widget_tittle">
+                                    <h4>Instagram Feed<i class="fa fa-instagram"></i></h4>
+                                </div>
+                                <ul class="instagram_list" id="instafeed"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==========End Latest post  area==========-->
+        
+        
+
+        <!--==========End Contact Us area==========-->
+        <div class="height-emulator"></div>
+        <!--==========Footer area==========-->
+        <footer class="dope_right">
+            <div class="container">
+                <div class="dope_right_inner row">
+                    <h2>GuideRepublic</h2>
+                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+                    <h5>&copy; All rights reserved. Since 2015</h5>
+                    <div class="img_part">
+                        <img src="img/doplogo.jpg" alt="">
+                        <div class="img_inner">
+                            <i class="ion-ios-arrow-thin-up"></i>
+                            <h5>Go Top</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--==========End Footer area==========-->
+        
+        
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Swiper Slider -->
+        <script src="vendors/scrollbar/jquery.mCustomScrollbar.min.js"></script>
+        <script src="vendors/swiper-slider/js/swiper.min.js"></script>
+        <!-- Owl Slider -->
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <!-- Isotope js -->
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+        <!-- Lightbox js -->
+        <script src="vendors/lightbox/js/lightbox.min.js"></script>
+        <!-- CountDown js -->
+        <script type="text/javascript" src="vendors/countdown/jquery.countdown.min.js"></script>
+        <!--Instafeed-->
+        <script src="vendors/instafeed/instafeed.min.js"></script>
+        <!--Tweets-->
+        <script src="vendors/tweet/tweetie.min.js"></script>
+        <script src="js/script.js"></script>
+        <!-- contact js -->
+        <script src="js/jquery.form.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/contact.js"></script>
+        <!-- Counter js -->
+        <script src="vendors/counter/cdn.js"></script>
+        <script src="vendors/counter/waypoints.min.js"></script>
+        <script src="vendors/counter/jquery.counterup.min.js"></script>
+         <!--gmaps Js-->
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script src="js/google-map.js"></script>
+        
+        <script src="js/theme.js"></script>
+    </body>
+</html>

@@ -1,0 +1,101 @@
+/* Footer area css
+============================================================================================ */
+.dope_right{
+    border-top: 2px solid #f5f5f5;
+    padding: 60px 0 55px;
+    margin: 0 0 60px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    z-index: 0;
+    &:before{
+        content: "";
+        background: #fdfdfd;
+        position: absolute;
+        left: 0px;
+        bottom: -60px;
+        height: 60px;
+        width: 100%;
+        border-top: 2px solid #f5f5f5;
+    }
+    .dope_right_inner{
+        text-align: center;
+        padding-bottom: 60px;
+        position: relative;
+        h2{
+            font-family: "monSB";
+            font-size: 36px;
+            color: #000;
+            padding-bottom: 50px;
+        }
+        p{
+            font: normal 16px/24px $incon;
+            color: $pfont;
+            max-width: 770px;
+            display: inline-block;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        h5{
+            font: normal 15px/24px $roboto;
+            color: $pfont;
+        }
+        .img_part{
+            position: absolute;
+            bottom: -115px;
+            left: 50%;
+            display: block;
+            transform: translateX(-50%);
+            cursor: pointer;
+        }
+        .img_inner{
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            color: #fff;
+            width: 100%;
+            i{
+                font-size: 30px;
+            }
+            h5{
+                font-family: "monB";
+                font-weight: bold;
+                font-size: 16px;
+                color: $pfont;
+                color: #fff;
+            }
+        }
+    }
+}
+/* End Footer area css
+============================================================================================ */
+
+/* Footer style2 area css
+============================================================================================ */
+.footer_style2{
+    padding: 0px 60px;
+    clear: both;
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+    .footer_left_content{
+        h4{
+            line-height: 60px;
+            color: $pfont;
+            font-family: $roboto;
+            font-size: 15px;
+        }
+    }
+    .footer_right_content{
+        h4{
+            line-height: 60px;
+            color: $pfont;
+            font-family: $roboto;
+            font-size: 15px;
+        }
+    }
+}
+/* End Footer style2 area css
+============================================================================================ */

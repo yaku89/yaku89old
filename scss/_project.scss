@@ -1,0 +1,226 @@
+.project_area{
+	padding: 75px 0px;
+	overflow: hidden;
+    background: #fdfdfd;
+    z-index: 2;
+    position: relative;
+	.project{
+		.single_project{
+			text-align: center;
+			.media{
+//				position: relative;
+//				left: 30%;
+                max-width: 200px;
+                margin:  auto;
+				.media-left{
+					padding-right: 25px;
+					i{
+						font-size: 56px;
+						color: #000;
+					}
+				}
+				.media-body{
+					width: 120px;
+					h2{
+						display: inline-block;
+						font-family: "monUL";
+						font-size: 56px;
+						color: #000;
+					}
+				}
+			}
+			p{
+				font: normal 24px $incon;
+            	color: #000;
+				padding-top: 30px;
+			}
+		}
+	}
+}
+
+.project_title{
+	padding: 60px 0 0;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+	.project_title_inner{
+		.project_left{
+			padding-right: 0;
+			.project_left_inner{
+				padding: 45px 0 45px 40px;
+				background: #fdfdfd;
+				h2{
+					padding: 0 0 20px;
+					font-family: "monR";
+					font-size: 36px;
+					color: #000;
+					line-height: 1;
+				}
+				h6{
+					font: normal 16px/1 $incon;
+					color: #434343;
+				}
+				img{
+					padding: 25px 0 45px;
+				}
+				p{
+					font: normal 15px/24px $roboto;
+					color: #434343;
+					padding-bottom: 40px;
+					padding-right: 30px;
+				}
+				.contact_link_inner{
+					display: block;
+					overflow: hidden;
+					.single_link{
+						width: 50%;
+						float: left;
+						padding-bottom: 35px;
+						h5{
+							font-family: "monB";
+							font-weight: bold;
+							font-size: 16px;
+							color: #000;
+							padding-bottom: 20px;
+						}
+						a{
+							font: normal 16px/24px $roboto;
+							color: $pfont;
+							display: block;
+						}
+					}
+				}
+				ul{
+					li{
+						display: inline-block;
+						a{
+							padding: 0 8px;
+							i{
+								font-size: 15px;
+								color: #000;
+								line-height: 24px;
+								@include transition;
+							}
+							&:hover{
+								background: transparent;
+								i{
+									color: $pest;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.project_right{
+			padding-left: 0;
+            .project_right_img{
+                margin-left: -15px;
+                img{
+                    max-width: 100%;
+                }
+            }
+		}
+	}
+}
+
+/*==================Project two===========================*/
+
+.project_two{
+	padding: 0 60px;
+	.project2_inner{
+		.project2_left{
+			width: calc(50% - 145px);
+			background: #f8f8f8;
+			padding-bottom: 220px;
+			.project2_left_inner{
+				text-align: center;
+				padding: 155px 0 55px;
+				h2{
+					padding: 0 0 20px;
+					font-family: "monR";
+					font-size: 36px;
+					color: #000;
+					line-height: 1;
+				}
+				h6{
+					font: normal 16px/1 $incon;
+					color: #434343;
+				}
+				img{
+					padding: 25px 0 45px;
+				}
+				p{
+					font: normal 15px/24px $roboto;
+					color: #434343;
+					padding-right: 30px;
+					max-width: 630px;
+					margin: 0 auto;
+				}
+			}
+			.project2_info{
+				text-align: center;
+				display: block;
+				overflow: hidden;
+				.single_link{
+					padding-bottom: 35px;
+					width: 100%;
+					h5{
+						font-family: "monB";
+						font-weight: bold;
+						font-size: 16px;
+						color: #000;
+						padding-bottom: 20px;
+					}
+					h6{
+						font: normal 15px/24px $roboto;
+						color: #434343;
+					}
+					a{
+						font: normal 16px/24px $roboto;
+						color: $pfont;
+						display: block;
+					}
+				}
+				.info_left{
+					float: left;
+					text-align: right;
+				}
+				.info_right{
+					float: left;
+					text-align: left;
+				}
+			}
+			.info_top{
+				z-index: 2;
+				position: relative;
+				.info_left{
+					width: 40%;
+					padding-right: 30px;
+					padding-top: 30px;
+				}
+				.info_right{
+					width: 60%;
+				}
+			}
+			.info_bottom{
+				margin-top: -90px;
+				z-index: -999;
+				.info_left{
+					width: 60%;
+				}
+				.info_right{
+					width: 40%;
+					padding-left: 30px;
+					padding-top: 120px;
+				}
+			}
+		}
+		.project2_right{
+			width: calc(50% + 145px);
+			padding: 0;
+            overflow: hidden;
+			
+		}
+	}
+}

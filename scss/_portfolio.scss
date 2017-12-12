@@ -1,0 +1,285 @@
+/* Portfolio area css
+============================================================================================ */
+.portfolio_area{
+    background: #fdfdfd;
+    position: relative;
+    z-index: 1;
+    .portfolio_inner_area{
+        .portfolio_filter{
+            text-align: center;
+            padding: 55px 0px;
+            ul{
+                li{
+                    display: inline-block;
+                    margin-right: 7px;
+                    a{
+                        font-size: 16px;
+                        font-family: $incon;
+                        border: 2px solid #f5f5f5;
+                        background: transparent;
+                        height: 55px;
+                        padding: 0px 30px;
+                        display: inline-block;
+                        line-height: 50px;
+                        color: $black;
+                        position: relative;
+                        z-index: 2;
+                        @include transition;
+                        &:before{
+                            content: url(../img/portfolio/portfolio_btn-bg.jpg);
+                            position: absolute;
+                            left: 0px;
+                            top: 0px;
+                            width: 100%;
+                            height: 100%;
+                            z-index: -1;
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            opacity: 0;
+                            @include transition;
+                            overflow: hidden;
+                        }
+                    }
+                    &:last-child{
+                        margin-right: 0px;
+                    }
+                    &:hover{
+                        a{
+                            .cbp_filter_counter{
+                                opacity: 1;
+                                visibility: visible;
+                                top: -36px;
+                            }
+                        }
+                    }
+                    &:hover, &.active{
+                        a{
+                            color: #fff;
+                            &:before{
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .portfolio_item, .portfolio_item_style2{
+            .single_facilities{
+                img{
+                    width: 100%;
+                }
+                &:hover{
+                    .portfolio_hover{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        .load_btn{
+            margin: 60px auto;
+        }
+    }
+}
+.portfolio_hover{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    opacity: 0;
+    @include transition;
+    .portfolio_hover_inner{
+        display: block;
+        text-align: center;
+        background: rgba(255, 255, 255, .90);
+        height: 100%;
+        border: 10px solid #fff;
+        position: relative;
+        h4{
+            top: 50%;
+            left: 0px;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            transform: translateY(-50%);
+            line-height: 30px;
+            font-size: 20px;
+            font-family: "monR";
+            color: $black;
+            text-transform: uppercase;
+        }
+        a{
+            position: absolute;
+            left: 0px;
+            bottom: -10px;
+            height: 56px;
+            background: #fff;
+            display: inline-block;
+            text-align: center;
+            max-width: 152px;
+            line-height: 52px;
+            font-size: 16px;
+            font-family: $incon;
+            color: $black;
+            right: 0px;
+            margin: 0 auto;
+            i{
+                margin-right: 15px;
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+
+.client_logo_area{
+    overflow: hidden;
+    .single_logo{
+        width: calc(100% / 6);
+        float: left;
+        overflow: hidden;
+        text-align: center;
+        line-height: 180px;
+    }
+}
+.portfolio_area.portfolio_area2{
+    background: #fff;
+    margin-top: 0px;
+}
+.portfolio_area.portfolio_shop{
+    background: #fff;
+    margin: 0px;
+    .portfolio_inner_area{
+        .portfolio_item_style2{
+            .single_facilities{
+                width: calc(100% / 4);
+                border: 1px solid #fff;
+                .portfolio_hover{
+                    padding: 20px;
+                    .portfolio_hover_inner{
+                        h4{
+                            font-size: 18px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* End Portfolio area css
+============================================================================================ */
+
+/* End Portfolio area css
+============================================================================================ */
+.portfolio_area.portfolio_masonry{
+    background: #fff;
+    margin: 0px;
+    .portfolio_inner_area{
+        .portfolio_filter{
+            padding: 60px 0px 30px 0px;
+        }
+        .portfolio_item{
+            .single_facilities{
+                margin-top: 30px
+            }
+        }
+    }
+}
+.portfolio_masonry.portfolio_masonry2{
+    padding-bottom: 60px;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    .portfolio_inner_area{
+        .portfolio_item{
+            .single_facilities{
+                img{
+                    max-width: 100%;
+                }
+                .portfolio_hover{
+                    padding: 25px;
+                    .portfolio_hover_inner{
+                        h4{
+                            font-size: 20px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+                &:hover{
+                    .portfolio_hover{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        .middle_btn_area{
+            padding: 30px 0px;
+            overflow: hidden;
+            clear: both;
+            .previous_btn{
+                margin-right: -10px;
+                width: 180px;
+                max-width: none;
+                i{
+                    padding-right: 10px;
+                    padding-left: 0px;
+                }
+            }
+            .middle_icon{
+                border: 2px solid #f7f7f7;
+                height: 55px;
+                display: block;
+                text-align: center;
+                margin-left: -10px;
+                margin-right: -10px;
+                line-height: 55px;
+                font-size: 21px;
+                color: $black;
+            }
+            .next_btn{
+                width: 180px;
+                max-width: none;
+                position: relative;
+                left: -10px;
+                
+            }
+        }
+    }
+}
+.cbp_filter_counter{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background: #545454;
+    height: 26px;
+    width: 34px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 11px;
+    font-family: $roboto;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 100ms ease-out;
+    &:before{
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 7px 4px 0 4px;
+        border-color: #545454 transparent transparent transparent;
+        position: absolute;
+        left: 50%;
+        bottom: -7px;
+        transform: translateX(-50%);
+    }
+    span{
+        position:relative;
+        top: -12px;
+    }
+}
+/* End Portfolio area css
+============================================================================================ */

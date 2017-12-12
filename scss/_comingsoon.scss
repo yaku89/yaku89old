@@ -1,0 +1,157 @@
+.coming_soon{
+	padding: 0 60px;
+	position: relative;
+	.coming_soon_inner{
+		background: url('../img/banner2.jpg') scroll no-repeat 100%;
+		background-size: cover;
+		border: 20px solid #f8f8f8;
+		padding: 300px 140px;
+		position: relative;
+		h2{
+			font-family: "monR";
+			font-size: 56px;
+			color: #fff;
+		}
+		img{
+			padding: 15px 0 35px;
+		}
+		h6{
+			font: normal 15px/24px $roboto;
+			color: #fff;
+			max-width: 750px;
+		}
+		ul{
+			text-align: left !important;
+			color: #fff;
+            overflow: hidden;
+			li{
+				span{
+					font-family: "monH";
+					font-size: 136px !important;
+					line-height: 1 !important;
+					display: block;
+					padding-top: 40px;
+				}
+				p{
+					font: normal 24px/1 $incon !important;
+					color: #fff !important;
+					padding-top: 30px;
+				}
+			}
+			.seperator{
+				border: 0;
+				width: 30px;
+				height: 0;
+			}
+		}
+		a{
+			font: normal 16px/22px $incon;
+			color: #000;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			background: #fff;
+			width: 180px;
+			height: 46px;
+			display: inline-block;
+			text-align: center;
+			padding: 10px 0;
+			margin-bottom: -2px;
+			@include transition;
+			i{
+				padding-right: 8px;
+			}
+			&:hover{
+				background: #000;
+				color: #fff;
+			}
+		}
+	}
+}
+
+/*===================================================
+================ Error Full ======================
+======================================================*/
+
+.error_full{
+	.coming_soon_inner{
+		background: url('../img/error_full.jpg') scroll no-repeat 100%;
+		background-size: cover;
+	}
+}
+
+/*===================================================
+================ Construction ======================
+======================================================*/
+
+.construction{
+	.coming_soon_inner{
+		background: url('../img/construction/banner.jpg') scroll no-repeat 100%;
+		background-size: cover;
+		text-align: center;
+		h6{
+			margin: 0 auto;
+		}
+		#example{
+			text-align: center !important;
+			margin: 100px 0 0;
+			li{
+				position: relative;
+//				max-width: 270px;
+				height: 382px;
+				border: 0;
+                width: calc(100% / 4);
+                float: left;
+                padding-right: 30px;
+                .construction_inner{
+                    position: relative;
+                }
+				img{
+					position: absolute;
+					left: 50%;
+                    transform: translateX(-50%);
+					top: 0;
+					padding: 0;
+                    width: 100%;
+				}
+				span{
+					color: #000 !important;
+					position: relative;
+					line-height: 1 !important;
+					padding-top: 115px;
+				}
+				p{
+					color: #000 !important;
+					position: relative;
+					font-size: 24px;
+				}
+//                &:last-child{
+//                    padding-right: 0;
+//                }
+			}
+		}
+        
+	}
+}
+.coming_soon.comingsoon_box{
+    .coming_soon_inner{
+        #example{
+            li{
+                width: calc(100% / 4);
+                display: block;
+                float: left;
+                padding-right: 30px;
+                text-align: center;
+                .coming_box_inner{
+                    border: 2px solid #fff;
+                    height: 256px;
+				    text-align: center;
+                }
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}

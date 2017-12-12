@@ -1,0 +1,303 @@
+/* Home slider css
+============================================================================================ */
+.home_slider{
+    position: relative;
+    background: #fff;
+    z-index: 2;
+}
+.home_slider_area{
+    width: 100%;
+    height: calc(100vh - 60px);
+    position: relative;
+    overflow: hidden;
+    padding: 0px 60px;
+    .swiper-slide{
+        overflow: hidden;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .swiper-pagination{
+        right: 28px;
+        .swiper-pagination-bullet{
+            width: 5px;
+            height: 5px;
+            background: $black;
+            border-radius: 50%;
+            opacity: 1;
+            margin: 20px 0px;
+            &.swiper-pagination-bullet-active{
+                opacity: .3;
+            }
+        }
+    }
+    .swiper-button-next{
+        background: none;
+        top: 58.5%;
+        right: 13px;
+        i{
+            font-size: 21px;
+            color: $black;
+        }
+    }
+    .swiper-button-prev{
+        background: none;
+        left: auto;
+        right: 13px;
+        top: 44%;
+        i{
+            font-size: 21px;
+            color: $black;
+        }
+    }
+}
+/* End Home slider css
+============================================================================================ */
+
+/* Feature slider css
+============================================================================================ */
+.feature_area{
+    background: #fdfdfd;
+    margin-top: -30px;
+    padding: 60px 0px;
+    z-index: 2;
+    position: relative;
+    .feature_tittle{
+        text-align: center;
+        padding-bottom: 65px;
+    }
+    .feature_slider{
+        .feature_single_element{
+            position: relative;
+            cursor: pointer;
+            .feature_img{
+                img{
+                    max-width: 100%;
+                }
+            }
+            .feature_hover_content{
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                height: 100%;
+                background: url(../img/feature-slider/feature_hover_pettern.png) no-repeat scroll center center;
+                transform: translateZ(0);
+                backface-visibility: hidden;
+                transform: scaleY(0);
+                transform-origin: 50% 100%;
+                transition: all 600ms linear;
+                &:before{
+                    content: "";
+                    background: rgba(255, 8, 55, .85);
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    width: 100%;
+                    height: 100%;
+                }
+                .feature_hover_content_inner{
+                    position: absolute;
+                    text-align: center;
+                    width: 100%;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    h4{
+                        font-size: 136px;
+                        font-family: "monH";
+                        color: #fff;
+                    }
+                    p{
+                        font-family: $incon;
+                        color: #fff;
+                        font-size: 24px;
+                        padding-top: 8px;
+                    }
+                }
+            }
+            &:hover{
+                .feature_hover_content{
+                    transform: scaleY(1);
+                    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+                }
+            }
+        }
+    }
+}
+/* End Feature slider css
+============================================================================================ */
+
+/* End Feature slider css
+============================================================================================ */
+.home_two_slider{
+    padding: 0px 60px;
+    min-height: calc(100vh - 160px);
+    .owl-item.center{
+        .item{
+            
+            &:before{
+                opacity: 0;
+            }
+        }
+    }
+    .item{
+        border-top: 20px solid #f8f8f8;
+        border-bottom: 20px solid #f8f8f8;
+        border-left: 15px solid #f8f8f8;
+        border-right: 15px solid #f8f8f8;
+        position: relative;
+        z-index: 2;
+        img{
+            height: calc(100vh - 160px);
+            -webkit-transform-style: initial !important;
+        }
+        &:before{
+            content: "";
+            background: rgba(255, 255, 255, .80);
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            @include transition;
+        }
+    }
+    .owl-controls{
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        .owl-dots{
+            padding-left: 0px;
+            .owl-dot{
+                height: 5px;
+                width: 5px;
+                background: $black;
+                border-radius: 50%;
+                margin: 0 auto 20px;
+                display: block;
+                vertical-align: middle;
+                span{
+                    display: none;
+                }
+                &.active{
+                    opacity: .3;
+                    span{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .owl-nav{
+            .owl-next{
+                bottom: -20px;
+                position: absolute;
+                width: 100%;
+                text-align: center;
+                left: 0px;
+            }
+            .owl-prev{
+                position: relative;
+                top: -15px;
+            }
+            .owl-next, .owl-prev{
+                background: transparent;
+                color: $black;
+                display: block;
+                font-size: 30px;
+                color: $black;
+                margin: 0px;
+                padding: 0px;
+            }
+        }
+    }
+}
+
+/* End Feature slider css
+============================================================================================ */
+
+/* Home Portfolio slider css
+============================================================================================ */
+.home_slider{
+}
+.portfolio_slider{
+    overflow: hidden;
+    padding: 0px 60px;
+    .item{
+        ul{
+            li{
+                width: calc(100% / 6);
+                float: left;
+                overflow: hidden;
+                position: relative;
+                .portfolio_hover{
+                    padding: 20px;
+                    .portfolio_hover_inner{
+                        h4{
+                            font-size: 24px;
+                            line-height: 32px;
+                        }
+                    }
+                }
+                &:hover{
+                    .portfolio_hover{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    .owl-controls{
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        .owl-dots{
+            padding-left: 0px;
+            .owl-dot{
+                height: 5px;
+                width: 5px;
+                background: $black;
+                border-radius: 50%;
+                margin: 0 auto 20px;
+                display: block;
+                vertical-align: middle;
+                span{
+                    display: none;
+                }
+                &.active{
+                    opacity: .3;
+                    span{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .owl-nav{
+            .owl-next{
+                bottom: -20px;
+                position: absolute;
+                width: 100%;
+                text-align: center;
+                left: 0px;
+            }
+            .owl-prev{
+                position: relative;
+                top: -15px;
+            }
+            .owl-next, .owl-prev{
+                background: transparent;
+                color: $black;
+                display: block;
+                font-size: 30px;
+                color: $black;
+                margin: 0px;
+                padding: 0px;
+            }
+        }
+    }
+}
+/* End Home Portfolio slider  css
+============================================================================================ */

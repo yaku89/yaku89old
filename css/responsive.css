@@ -1,0 +1,1130 @@
+@media (max-width: 1780px) {
+    .single_about_dope .about_left {
+        padding-top: 15px;
+        position: relative;
+        padding-bottom: 20px;
+    }
+    .about_tittle {
+        top: 55%;
+    }
+    .about_dope_area.why_dope_area .single_about_dope .about_left {
+        margin-top: 0px;
+        padding: 50px 0px 0 40px;
+    }
+}
+@media (max-width: 1640px) {
+    .about_dope_area.why_dope_area .single_about_dope .about_left{
+        width: 100%;
+        max-width: 1170px;
+        margin:  auto;
+        float: none;
+        padding-bottom: 40px;
+    }
+    .about_dope_area.why_dope_area .single_about_dope .about_right{
+        width: 100%;
+        max-width: 1170px;
+        margin:  auto;
+        float: none;
+        margin-top: 30px;
+    }
+    .about_full .single_about_dope.single_about_dope2 .about_left {
+        padding: 150px 0 0 30px;
+    }
+    .about_full .single_about_dope .about_left {
+        padding: 50px 30px 0;
+    }
+    .coming_soon.construction .coming_soon_inner{
+        padding: 150px 0px;
+    }
+    .project_two .project2_inner .project2_left {
+        height: 1140px;
+    }
+}
+@media (max-width: 1600px) {
+    .home_slider_area {
+        height: 840px;
+    }
+    .portfolio_slider .item ul li {
+        width: calc(100% / 4);
+    }
+    .contact_us_left .contact_link_inner{
+        max-width: 750px;
+    }
+}
+@media (max-width: 1570px) {
+    .single_about_dope .about_left {
+        padding-left: 90px;
+    }
+    .about_tittle {
+        position: absolute;
+        left: -133px;
+        top: 48%;
+    }
+    .single_about_dope .about_left p {
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+    .single_about_dope .about_left {
+        padding-left: 55px;
+    }
+    .single_about_dope .about_left .readmore_btn {
+        margin-top: 8px;
+    }
+    .single_about_dope.single_about_dope2 .about_left .readmore_btn {
+        margin-top: 8px;
+    }
+    .about_full .single_about_dope2 .about_left .single_trends {
+        padding-bottom: 5px;
+    }
+}
+@media (max-width: 1500px){
+    .coming_soon .coming_soon_inner ul li span {
+        font-size: 75px !important;
+    }
+    .coming_soon.comingsoon_box .coming_soon_inner #example li .coming_box_inner {
+        height: 210px;
+    }
+}
+@media (max-width: 1400px) {
+    .single_about_dope.single_about_dope2 {
+        top: 0px;
+        margin-bottom: 0px;
+    }
+    .single_about_dope .about_left {
+        width: 50%;
+    }
+    .single_about_dope .about_right {
+        width: 50%;
+    }
+    .about_tittle {
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: rotate(0);
+        padding-bottom: 15px;
+    }
+    .single_about_dope .about_left {
+        padding: 0px;
+    }
+    .single_about_dope.single_about_dope2 .about_right {
+        width: 50%;
+    }
+    .single_about_dope.single_about_dope2 .about_left {
+        width: 50%;
+        padding: 0px 0px 0px 20px;
+    }
+    .single_about_dope.single_about_dope2 .about_left .about_tittle {
+        left: 0px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .single_about_dope.single_about_dope2 .single_trends p {
+        padding-top: 12px;
+    }
+    .about_dope_area {
+        padding: 60px 60px 60px 60px;
+    }
+    .about_dope_area .single_about_dope.row.m0{
+        padding-bottom: 40px;
+    }
+    .about_dope_area.about_full .single_about_dope.single_about_dope2{
+        top: 0px;
+        padding-bottom: 0px;
+    }
+    .about_dope_area.about_full .single_about_dope.row.m0{
+        padding-bottom: 0px;
+    }
+    .about_dope_area.about_full {
+        margin-bottom: 0px;
+    }
+    .about_full .single_about_dope.single_about_dope2 .about_left {
+        padding: 60px 0 0 30px;
+    }
+    .about_dope_area.about_full .single_about_dope.single_about_dope2 .about_right{
+        width: calc(50% + 145px);
+    }
+    .about_dope_area.about_full .single_about_dope.single_about_dope2 .about_left{
+        width: calc(50% - 145px);
+    }
+    ul#example li {
+        margin-bottom: 20px;
+    }
+    ul#example li:last-child {
+        margin-left: -32px;
+    }
+    .coming_soon .coming_soon_inner {
+        padding: 300px 60px;
+    }
+    .coming_soon.construction ul#example li:last-child{
+        margin-left: 0px;
+    }
+}
+@media (max-width: 1366px) {
+    .client_logo_area .single_logo img{
+        width: 50%;
+    }
+    .page_header_area .page_header, .page_header_area .page_header.page_header5, .page_header_area .page_header.page_header2, .page_header_area .page_header.page_header3, .page_header_area .page_header.page_header7, .page_header_area .page_header.page_header4, .page_header_area .page_header.page_header6 {
+        background-size: contain;
+    }
+    .page_header_area .page_header {
+        padding: 45px 0 148px 85px;
+    }
+    .contact_us_left .contact_link_inner{
+        max-width: 700px;
+    }
+    .construction .coming_soon_inner #example {
+        width: 80%;
+        margin: 76px auto 0px;
+    }
+    .construction .coming_soon_inner #example li span {
+        padding-top: 79px;
+    }
+    .project_two .project2_inner .project2_left .info_bottom .info_left img{
+        max-width: 100%;
+    }
+    .home_slider_area .swiper-slide img {
+        height: auto;
+    }
+    .home_slider_area {
+        height: 732px;
+    }
+}
+@media (max-width: 1352px) {
+    .coming_soon.construction ul#example li.seperator{
+        display: none;
+    }
+    .project_two .project2_inner .project2_right img{
+        margin-left: -300px;
+    }
+    .project_two .project2_inner .project2_left {
+        width: 50%;
+    }
+    .project_two .project2_inner .project2_right {
+        width: 50%;
+    }
+}
+@media (max-width: 1220px) {
+    ul#example li:last-child {
+        margin-left: 0px;
+    }
+    .contact_area.contact_full .col-md-7.contact_left{
+        width: 100%;
+    }
+    .contact_area .contact_us #mapBox {
+        width: 100%;
+        height: 500px;
+        position: relative!important;
+        top: 0;
+        right: 0;
+    }
+    .contact_full .contact_us .contact_left .contact_link .contact_title {
+        width: 100%;
+        padding-top: 35px;
+    }
+    .contact_full .contact_us .contact_left .contact_link .contact_title p {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .coming_soon {
+        padding: 0 0px;
+        position: relative;
+        overflow: hidden;
+    }
+}
+@media (max-width: 1199px) {
+    .home_slider_area {
+        height: 450px;
+    }
+    .home_slider_area .swiper-button-next {
+        background: none;
+        top: 64.5%;
+        right: 13px;
+    }
+    .home_slider_area .swiper-button-prev {
+        background: none;
+        left: auto;
+        right: 13px;
+        top: 40%;
+    }
+    .design_photography_area .design_area .design_right_img img {
+         position: relative; 
+         float: right;
+        padding-top: 12px;
+    }
+    .single_about_dope .about_right {
+        padding-top: 25px;
+    }
+    .section_tittle h2 {
+        z-index: 2;
+        position: relative;
+    }
+    .portfolio_hover {
+        padding: 0px;
+    }
+    .portfolio_hover .portfolio_hover_inner a {
+        width: 100%;
+        max-width: 152px;
+    }
+    .client_logo_area .single_logo {
+        width: calc(100% / 4);
+    }
+    .price_table_area .single_price .price_content ul a {
+        padding: 17px 0px;
+        max-width: 300px;
+        width: 100%;
+    }
+    .page_header_area .page_header {
+        padding: 115px 20px 148px 20px;
+    }
+    .latest_post_list li .media .media-body h4 {
+        padding: 17px 0px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .project_title .col-md-5.project_left{
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .project_title .col-md-7.project_right{
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .project_title .project_title_inner .project_right .project_right_img {
+         margin-left: 0px; 
+    }
+    .portfolio_masonry.portfolio_masonry2 .portfolio_inner_area .middle_btn_area .previous_btn {
+        width: 100%;
+    }
+    .portfolio_masonry.portfolio_masonry2 .portfolio_inner_area .middle_btn_area .next_btn {
+        width: 100%;
+        left: 0px;
+    }
+    .portfolio_masonry.portfolio_masonry2 .portfolio_inner_area .middle_btn_area .middle_icon {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .single_post_inner .list_style_area .list_inner .col-sm-3 {
+        padding-right: 0px;
+    }
+    .single_post_inner .list_style_area .list_inner .arrow_list li a i {
+        margin-right: 5px;
+    }
+    .single_post_inner .single_blog_social ul::after {
+        max-width: none;
+        width: 35%;
+    }
+    .single_post_inner .single_blog_social ul::before {
+        max-width: none;
+        width: 35%;
+    }
+    .single_post_inner .single_tags_area .single_tag_list li {
+        margin-top: 20px;
+    }
+    .single_post_inner .single_posts_area .left_post .media .media-body h4 {
+        font-size: 14px;
+    }
+    .about_dope_area.about_full .single_about_dope .about_left{
+        width: 100%;
+        float: none;
+    }
+    .about_dope_area.about_full .single_about_dope .about_right{
+        width: 100%;
+        float: none;
+    }
+    .about_dope_area.about_full .single_about_dope.single_about_dope2 .about_right{
+        width: 100%;
+        float: none;
+    }
+    .about_dope_area.about_full .single_about_dope.single_about_dope2 .about_left{
+        width: 100%;
+        float: none;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .coming_soon .coming_soon_inner{
+        padding: 125px 40px;
+    }
+    .error_inner h2 {
+        font-size: 150px;
+        padding-top: 80px;
+    }
+    .error_inner p {
+        padding-bottom: 80px;
+    }
+    .home_two_slider .item img {
+        height: 500px;
+    }
+    .home_two_slider {
+        min-height: 500px;
+    }
+/*
+    .home_two_slider .item img {
+        height: 100%;
+    }
+*/
+    .portfolio_slider .item ul li {
+        width: calc(100% / 3);
+    }
+    .portfolio_slider .item ul li .portfolio_hover .portfolio_hover_inner h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .portfolio_slider .item ul li .portfolio_hover {
+        padding: 0px;
+    }
+    .project_two .project2_inner .project2_left {
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+    .project_two .project2_inner .project2_right {
+        width: 100%;
+        float: none;
+    }
+    .project_two .project2_inner .project2_right img {
+        margin-left: 0px;
+        max-width: 100%;
+    }
+    .client_logo_area .single_logo {
+        line-height: 100px;
+    }
+    .page_header_area .page_header, .page_header_area .page_header.page_header5, .page_header_area .page_header.page_header2, .page_header_area .page_header.page_header3, .page_header_area .page_header.page_header7, .page_header_area .page_header.page_header4, .page_header_area .page_header.page_header6 {
+        background-size: cover;
+    }
+    .page_header_area .page_header {
+        padding: 115px 0 148px 155px;
+    }
+    .contact_us_left {
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .contact_us_left .contact_us_left_inner {
+        min-height: auto;
+    }
+    .contact_us_left .contact_link_inner {
+        max-width: 100%;
+        position: relative;
+        bottom: 0;
+        padding: 0px;
+    }
+    .map_right {
+        width: 100%;
+        float: none;
+        margin-top: 0px;
+
+    }
+    .contact_area .contact_us #googleMap {
+        width: 100%;
+        min-height: 500px;
+    }
+    .coming_soon.comingsoon_box .coming_soon_inner #example li .coming_box_inner {
+        height: auto;
+        padding: 20px;
+    }
+    .coming_soon .coming_soon_inner ul li span {
+        padding-top: 0px;
+    }
+    .coming_soon .coming_soon_inner ul li p {
+        padding-top: 15px;
+    }
+    .construction .coming_soon_inner #example li span {
+        padding-top: 60px;
+    }
+    
+}
+@media (max-width: 991px) {
+    .design_photography_area .design_area .design_inner_img {
+        max-width: 670px;
+    }
+    .design_photography_area .design_area h3 {
+        right: 64px;
+    }
+    .design_photography_area .design_area .design_right_img {
+        padding-top: 0px;
+    }
+    .single_about_dope .about_left {
+        width: 100%;
+    }
+    .single_about_dope .about_right {
+        width: 100%;
+    }
+    .single_about_dope.single_about_dope2 .about_right {
+        width: 100%;
+        padding-top: 0px;
+    }
+    .single_about_dope.single_about_dope2 .about_left {
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .work_area .working_place img {
+        position: relative;
+        right: 0px;
+        padding: 0px 15px;
+    }
+    .work_process_area_main .work_process_area::before {
+        display: none;
+    }
+    .work_process_area_main .work_process_area .work_single_process {
+        margin-top: 40px;
+    }
+    .team_area .single_team_item{
+        max-width: 370px;
+        margin:  auto;
+    }
+    .client_review.row.m0 .slider_client .client_details .section_tittle {
+        margin-top: 0px;
+    }
+    .price_table_area .col-md-4{
+        max-width: 370px;
+        margin: auto;
+    }
+    .price_table_area .single_price.selected {
+        margin: 30px 0px 0px 0px;
+    }
+    .right_sidebar_area{
+        max-width: 370px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .contact_area .contact_us iframe {
+        position: relative; 
+        right: 0px;
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .we_dope_area .we_dope .we_dope_right {
+        padding: 60px 0 0px 0px;
+        position: relative;
+    }
+    .we_dope_area .we_dope_left{
+        text-align: center;
+    }
+    .we_dope_area .we_dope .we_dope_right .dope_right_inner {
+        background: transparent;
+        padding: 0px;
+    }
+    .we_dope_area .we_dope .we_dope_right .dope_right_inner .work_experience_area .single_work_lavel:last-child {
+        margin-bottom: 0px;
+    }
+    .we_dope_area .we_dope .we_dope_right .dope_right_inner p {
+        padding: 40px 15px 0px 15px;
+    }
+    .project_area .project .single_project {
+        padding-bottom: 40px;
+    }
+    .project_area {
+        padding: 75px 0px 25px 0px;
+    }
+    .contact_details_icon {
+        max-width: 170px;
+    }
+    .contact_details_area .address_icon{
+        margin-top: 40px;
+    }
+    .contac_form form .form-group {
+        display: block;
+    }
+    .portfolio_hover .portfolio_hover_inner h4 {
+        line-height: 28px;
+        font-size: 20px;
+    }
+    .portfolio_masonry.portfolio_masonry2 .portfolio_inner_area .portfolio_item .single_facilities .portfolio_hover {
+        padding: 0px;
+    }
+    .portfolio_masonry.portfolio_masonry2 .portfolio_inner_area .portfolio_item .single_facilities .portfolio_hover .portfolio_hover_inner h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .feature_area .feature_slider{
+        max-width: 570px;
+        margin: 0 auto;
+    }
+    .feature_area .feature_slider .col-xs-6{
+        margin-bottom: 30px;
+    }
+    .all_links .single_link {
+        padding-bottom: 25px;
+    }
+    .all_links .single_link.office_link {
+        margin-right: 0px;
+        padding-right: 15px;
+    }
+    .coming_soon.comingsoon_box .coming_soon_inner #example li {
+        width: calc(100% / 2);
+        margin-right: 0px;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .construction .coming_soon_inner #example li {
+        position: relative;
+        height: 382px;
+        border: 0;
+        width: calc(100% / 2);
+        float: left;
+        padding-right: 30px;
+        margin-right: 0;
+    }
+    .construction .coming_soon_inner #example li span {
+        padding-top: 124px;
+    }
+    .construction .coming_soon_inner #example {
+        width: 80%;
+        margin: 76px auto 0px;
+    }
+}
+@media (max-width: 890px) {
+    ul#example li.seperator{
+        display: none;   
+    }
+    ul#example li{
+        margin-right: 30px;   
+    }
+    .coming_soon .coming_soon_inner ul li span {
+        font-size: 60px !important;
+    }
+    .coming_soon .coming_soon_inner ul li {
+        width: 170px;
+        height: 190px;
+    }
+}
+@media (max-width: 767px) {
+    .main_header_area {
+        z-index: 1;
+        background: #fff;
+        position: relative;
+    }
+    .design_photography_area .design_area .design_right_img {
+        padding-left: 15px;
+    }
+    .awesome_photography_area .dope_image {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .section_tittle h2 {
+        font-size: 26px;
+    }
+    .about_dope_area.why_dope_area .single_about_dope .about_left{
+        width: 100%;
+        max-width: none;
+    }
+    .about_dope_area.why_dope_area .single_about_dope .about_right{
+        width: 100%;
+        max-width: none;
+    }
+    .about_dope_area.why_dope_area{
+        padding: 60px 15px 60px 15px;
+    }
+    .about_dope_area.why_dope_area .single_about_dope .about_right .about_dope_image .why_dope_slider .owl-prev, .about_dope_area.why_dope_area .single_about_dope .about_right .about_dope_image .why_dope_slider .owl-next {
+        left: 0px;
+    }
+    .wd_50 {
+        width: 50%;
+    }
+    .wd_20 {
+        width: 50%;
+    }
+    .wd_30 {
+        width: 50%;
+    }
+    .wd_10 {
+        width: 50%;
+    }
+    .grid-sizer{
+        width: 50%;
+    }
+    .portfolio_area .portfolio_inner_area .portfolio_filter ul li {
+        margin-bottom: 20px;
+    }
+    .client_logo_area .single_logo {
+        width: calc(100% / 3);
+    }
+    .latest_post_area .col-sm-6{
+        max-width: 370px;
+        margin: auto;
+    }
+    .contact_area .contact_us .contact_link .contact_link_inner {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .latest_post_list li .media .media-body h4 {
+        padding: 40px 0px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .blog_pagination{
+        text-align: center;
+    }
+    .portfolio_area.portfolio_masonry .portfolio_item{
+        max-width: 370px;
+        margin: auto;
+    }
+    .portfolio_area.portfolio_shop .portfolio_inner_area .portfolio_item_style2 .single_facilities {
+        width: 33.33%;
+    }
+    .portfolio_masonry.portfolio_masonry2 .portfolio_inner_area .portfolio_item .single_facilities img {
+        max-width: none;
+        width: 100%;
+    }
+    .single_post_inner .list_style_area .list_inner .arrow_list {
+        padding-bottom: 20px;
+    }
+    .coming_soon .coming_soon_inner {
+        padding: 55px 8px;
+    }
+    .coming_soon.construction .coming_soon_inner {
+        padding: 55px 0px;
+    }
+    .coming_soon .coming_soon_inner h2 {
+        font-size: 33px;
+    }
+    .construction .coming_soon_inner #example li img {
+        max-width: 100%;
+    }
+    .construction .coming_soon_inner #example li span {
+        padding-top: 145px;
+    }
+    .construction .coming_soon_inner #example li .construction_inner {
+        position: relative;
+        height: 382px;
+    }
+    .construction .coming_soon_inner #example li img {
+        height: 100%;
+    }
+    .error_page .error {
+        padding: 2% 2% 2%;
+    }
+    .contact_form .rotate_contact_btn span a {
+        display: none;
+    }
+    .contact_form .rotate_contact_btn {
+        width: 33px;
+        left: -17px;
+        background: #f8f8f8;
+        border-radius: 3px;
+    }
+    .contact_form .rotate_contact_btn span i {
+        right: -5px;
+        top: 1px;
+        font-size: 28px;
+    }
+    .offcanvas_menu .nav.navbar-nav {
+        margin: 0px;
+    }
+    .page_header_area .page_header {
+        padding: 45px 0 45px 35px;
+    }
+    .contact_form.open .rotate_contact_btn{
+        left: 2px;
+    }
+    .section_tittle.contact_title {
+        padding-top: 45px;
+    }
+    .construction .coming_soon_inner #example {
+        width: 90%;
+        margin: 70px auto 0;
+    }
+}
+@media (max-width: 680px) {
+    .feature_area .feature_slider{
+        max-width: 570px;
+        margin-right: -30px;
+        margin:  auto;
+    }
+    .about_dope_area.why_dope_area .single_about_dope .about_left .work_experience_area .single_work_lavel {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .about_dope_area.why_dope_area .single_about_dope .about_left {
+        padding: 50px 0px 0 0;
+    }
+    .contact_area .contact_link .contact_link_inner .media{
+        width: 50%;
+        float: left;
+    }
+    .contact_area .contact_link .contact_link_inner .media .media-left{
+        max-width: 170px;
+    }
+    .contact_area .contact_link .contact_link_inner .media .media-left, .contact_area .contact_link .contact_link_inner .media .media-body{
+        display: block;
+    }
+    .contact_area .contact_us .contact_link .contact_link_inner .media .media-body .single_link {
+        width: 50%;
+        float: none;
+    }
+    .contact_area .contact_us .contact_link .contact_link_inner {
+        background: transparent;
+    }
+    ul#example{
+        text-align: center;
+    }
+    .coming_soon .coming_soon_inner ul {
+        text-align: center !important;
+    }
+    ul#example li {
+        margin-right: 0px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .portfolio_slider .item ul li {
+        width: calc(100% / 2);
+    }
+    .footer_style2 .footer_left_content{
+        float: none !important;
+        text-align: center;
+    }
+    .footer_style2 .footer_right_content{
+        float: none !important;
+        text-align: center;
+    }
+    .footer_style2 .footer_left_content h4 {
+        line-height: 50px;
+    }
+    .footer_style2 .footer_right_content h4 {
+        line-height: 50px;
+    }
+}
+@media (max-width: 600px) {
+    .home_slider_area {
+        height: 350px;
+    }
+    .home_slider_area .swiper-button-next {
+        background: none;
+        top: 68.5%;
+        right: 13px;
+    }
+    .home_slider_area .swiper-button-prev {
+        background: none;
+        left: auto;
+        right: 13px;
+        top: 36%;
+    }
+    .client_review.row.m0 .slider_client .client_image_area {
+         padding-left: 0px; 
+    }
+    .client_logo_area .single_logo {
+        width: calc(100% / 2);
+    }
+    .we_dope_area .we_dope .we_dope_right .dope_right_inner .work_experience_area .single_work_lavel {
+        margin-bottom: 30px;
+    }
+    .portfolio_area.portfolio_area2 .col-xs-6{
+        width: 100%;
+    }
+    .portfolio_area.portfolio_shop .portfolio_inner_area .portfolio_item_style2 .single_facilities {
+        width: 50%;
+    }
+    .project_two .project2_inner .project2_left .info_top .info_left, .project_two .project2_inner .project2_left .info_bottom .info_left  {
+        width: 100%;
+        padding-right: 0px;
+        padding-top: 0px;
+        float: none;
+        text-align: left;
+    }
+    .project_two .project2_inner .project2_left .info_top .info_right {
+        width: 100%;
+        float: none;
+        text-align: left;
+    }
+    .project_two .project2_inner .project2_left .info_bottom {
+        margin-top: 0px;
+    }
+    .project_two .project2_inner .project2_left .info_bottom .info_right {
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 40px;
+        float: none;
+        text-align: left;
+    }
+    .project_two .project2_inner .project2_left {
+        padding: 0px 15px;
+    }
+    .project_two .project2_inner .project2_left .project2_left_inner {
+        padding: 70px 0 55px;
+    }
+    .construction .coming_soon_inner #example {
+        width: 100%;
+        max-width: 270px;
+        margin: 0px auto 0;
+    }
+    .construction .coming_soon_inner #example li {
+        position: relative;
+        height: 382px;
+        border: 0;
+        width: calc(100% / 1);
+        float: none;
+        padding-right: 0px;
+        margin-right: 0;
+    }
+}
+@media (max-width: 500px) {
+    .main_header_area {
+        padding: 0px 15px;
+    }
+    .offcanvas_menu.open {
+        left: 0;
+    }
+    .home_slider_area {
+        padding: 0px 35px;
+    }
+    .contact_form .rotate_contact_btn {
+        left: -20px;
+    }
+    .contact_form.open .rotate_contact_btn{
+        left: -5px;
+    }
+    .home_slider_area .swiper-button-prev {
+        right: 0px;
+    }
+    .home_slider_area .swiper-button-next {
+        right: 0px;
+    }
+    .home_slider_area .swiper-pagination {
+        right: 15px;
+    }
+    .design_photography_area .design_area h3 {
+        right: 25px;
+        padding-right: 0px;
+    }
+    .design_photography_area .design_area h3 {
+        bottom: 220px;
+        line-height: 33px;
+        font-size: 23px;
+    }
+    .awesome_feature .col-xs-4{
+        width: 100%;
+    }
+    .awesome_feature .awesome_feature_element {
+        max-width: 265px;
+        margin: 30px auto 0; 
+    }
+    .about_dope_area {
+        padding: 60px 15px 60px 15px;
+    }
+    .feature_area .feature_slider{
+        max-width: 270px;
+        margin-right: 0px;
+        margin:  auto;
+    }
+    .dope_right .dope_right_inner h2 {
+        padding-bottom: 15px;
+    }
+    .dope_right .dope_right_inner p {
+        padding-bottom: 15px;
+    }
+    .dope_right .dope_right_inner {
+        padding-bottom: 0px;
+    }
+    .dope_right {
+        padding: 40px 0 55px;
+    }
+    .page_header_area {
+        padding: 0px;
+    }
+    .portfolio_area.portfolio_shop .portfolio_inner_area .portfolio_item_style2 .single_facilities {
+        width: 100%;
+    }
+    .portfolio_masonry.portfolio_masonry2 .col-xs-6.single_facilities{
+        width: 100%;
+    }
+    .post_comment_area .media .media-left, .post_comment_area .media .media-body{
+        display: block;
+    }
+    .post_comment_area .media .media-body{
+        width: 100%;
+    }
+    .single_post_inner .post_comment_area .media .media-left .comment_img {
+        max-width: 122px;
+    }
+    .about_dope_area.about_full {
+        padding: 0px 15px;
+    }
+    .footer_style2{
+        padding-top: 20px; 
+        padding-bottom: 20px; 
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .footer_style2 .footer_left_content h4{
+        line-height: 40px;
+    }
+    .footer_style2 .footer_right_content h4{
+        line-height: 40px;
+    }
+    .coming_soon {
+        padding: 0 15px;
+    }
+    .contact_full {
+        padding: 0 15px;
+    }
+    .error_page {
+        padding: 0 15px 15px;
+    }
+    .error_full .error_inner h2 {
+        font-size: 55px !important;
+    }
+    .home_two_slider .item img {
+        height: 280px;
+    }
+    .home_two_slider {
+        min-height: 300px;
+        padding: 0px 0px;
+    }
+    .home_two_slider .owl-controls {
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .home_two_slider .owl-controls .owl-nav .owl-next, .home_two_slider .owl-controls .owl-nav .owl-prev {
+         color: #fff; 
+    }
+    .home_two_slider .owl-controls .owl-dots .owl-dot {
+        background: #fff;
+    }
+    .portfolio_slider {
+        padding: 0px 15px;
+    }
+    .web_invader_area {
+        padding: 40px 15px;
+    }
+    .project_two {
+        padding: 0 15px;
+    }
+    .single_post_inner .subtittle_example .left_caption blockquote {
+        margin-left: -36px;
+    }
+    .wd_50 {
+        width: 100%;
+    }
+    .wd_20 {
+        width: 100%;
+    }
+    .wd_30 {
+        width: 100%;
+    }
+    .wd_10 {
+        width: 100%;
+    }
+    .feature_area .feature_slider{
+        max-width: 270px;
+        margin: 0 auto;
+    }
+    .feature_area .feature_slider .col-xs-6{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .home_btn a span {
+        display: none;
+    }
+    .home_btn a i {
+        font-size: 28px;
+        position: relative;
+        left: 15px;
+    }
+    .home_btn a {
+        width: 50px;
+        left: -19px;
+        top: 50%;
+        margin-top: 0px;
+        height: 32px;
+        background: #f5f5f5;
+    }
+    .coming_soon.comingsoon_box .coming_soon_inner #example li {
+        width: calc(100% / 1);
+        margin-right: 0px;
+        margin-bottom: 20px;
+        height: auto;
+        max-width: 220px;
+        padding-right: 0px;
+    }
+    .coming_soon .coming_soon_inner ul {
+        max-width: 220px;
+        margin: 0 auto !important;
+    }
+}
+@media (max-width: 480px) {
+    .client_review.row.m0 .slider_client .owl-controls {
+        top: auto;
+        bottom: 0px;
+    }
+    .client_review.row.m0 .slider_client .owl-prev {
+        display: none !important;
+    }
+    .client_review.row.m0 .slider_client .owl-next {
+        display: none !important;
+    }
+    .latest_post_inner .post_head h4 {
+        font-size: 20px;
+    }
+    .project_area .project .col-xs-6{
+        width: 100%;
+    }
+    .project_area .project .single_project {
+        padding-bottom: 75px;
+    }
+    .project_area {
+        padding: 75px 0px 0px 0px;
+    }
+    .logo_area.pull-left{
+        width: 100%;
+    }
+    .social_area.pull-right{
+        float: none !important;
+    }
+    .offcanvas_from .offcanvas_inner {
+        padding: 35px 15px 0px 15px;
+    }
+    .offcanvas_menu .offcanvas_menu_inner {
+        margin-left: 40px;
+    }
+}
+@media (max-width: 360px) {
+    .design_photography_area .design_area blockquote {
+        margin-left: 0px;
+    }
+    .work_process_area_main .work_process_area .col-xs-6{
+        width: 100%;
+    }
+    .about_dope_area.why_dope_area .single_about_dope .about_left .work_experience_area .single_work_lavel {
+        width: 100%;
+    }
+    .about_dope_area.why_dope_area .single_about_dope .about_right .about_dope_image .why_dope_slider .owl-next {
+        bottom: -55px;
+        left: 45px;
+    }
+    .about_dope_area.why_dope_area .single_about_dope .about_right .about_dope_image .why_dope_slider .owl-prev {
+        bottom: -55px;
+        left: 0px;
+    }
+    .about_dope_area.why_dope_area .single_about_dope .about_right .about_dope_image .why_dope_slider .owl-prev, .about_dope_area.why_dope_area .single_about_dope .about_right .about_dope_image .why_dope_slider .owl-next {
+        height: 40px;
+        width: 40px;
+        line-height: 48px;
+    }
+    .client_logo_area .single_logo {
+        width: 100%;
+    }
+    .single_post_inner .single_blog_social ul::after {
+        display: none;
+    }
+    .single_post_inner .single_blog_social ul::before {
+        display: none;
+    }
+    .feature_tittle h2 {
+        font-size: 25px;
+    }
+    .portfolio_slider .item ul li .portfolio_hover .portfolio_hover_inner h4 {
+        font-size: 14px;
+        line-height: 22px;
+        top: 40%;
+    }
+    .offcanvas_menu {
+        max-height: calc(100vh - 60px);
+        overflow: scroll;
+    }
+}

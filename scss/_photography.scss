@@ -1,0 +1,337 @@
+/* Design area css
+============================================================================================ */
+.design_photography_area{
+    .design_area{
+        background: #fff;
+        position: relative;
+        z-index: 2;
+        .design_inner_img{
+            position: relative;
+//            margin-right: -17px;
+            top: -60px;
+            z-index: 2;
+            &:before{
+                content: "";
+                background: rgba(255, 8, 55, .80);
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+            img{
+                max-width: 100%;
+            }
+        }
+        h3{
+            position: absolute;
+            max-width: 420px;
+            right: 0px;
+            bottom: 160px;
+            text-align: right;
+            line-height: 64px;
+            font-size: 48px;
+            font-family: "monUL";
+            color: #fff;
+            padding-right: 35px;
+            text-transform: uppercase;
+            z-index: 3;
+        }
+        blockquote{
+            max-width: 470px;
+            margin-left: 25px;
+            border-left: 4px solid $pest;
+            margin-top: -25px;
+            padding-left: 30px;
+            p{
+                line-height: 22px;
+                font-size: 16px;
+                font-family: $incon;
+                color: $black;
+            }
+        }
+        .design_right_img{
+            position: relative;
+            padding-top: 60px;
+            img{
+                position: absolute;
+                right: 15px;
+                top: 0px;
+                max-width: 100%;
+                z-index: 1;
+            }
+        }
+    }
+}
+/* End Design area css
+============================================================================================ */
+
+/* Awesome photography area css
+============================================================================================ */
+.awesome_photography_area{
+    padding-top: 25px;
+    background: #fff;
+    z-index: 2;
+    position: relative;
+    .dope_image{
+        text-align: right;
+    }
+}
+.awesome_text{
+    .section_tittle{
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    p{
+        font-size: 15px;
+        line-height: 24px;
+        font-family: $roboto;
+        color: $pfont;
+        padding-top: 30px;
+    }
+}
+.awesome_feature{
+    padding-top: 60px;
+    .awesome_feature_element{
+        border: 2px solid #f7f7f7;
+        text-align: center;
+        padding: 30px;
+        i{
+            font-size: 64px;
+            color: $black;
+        }
+        h5{
+            font-family: $incon;
+            font-size: 16px;
+            color: $black;
+            text-transform: capitalize;
+            padding-top: 30px;
+        }
+    }
+}
+/* End Awesome photography area css
+============================================================================================ */
+
+/* About area css
+============================================================================================ */
+.design_photography_area{
+    background: #fff;
+    z-index: 2;
+}
+.about_dope_area{
+    padding: 60px 60px 0px 60px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    &.about_full{
+        padding: 0px 60px 0px 60px;
+        margin-bottom: -76px;
+    }
+}
+.single_about_dope{
+    .about_left{
+        width: calc(50% - 185px);
+        float: left;
+        overflow: hidden;
+        padding-left: 120px;
+        padding-top: 125px;
+        position: relative;
+        p{
+            line-height: 24px;
+            font-size: 15px;
+            font-family: $roboto;
+            color: $pfont;
+            padding-top: 30px;
+            padding-right: 20px;
+        }
+        .readmore_btn{
+            margin-top: 45px;
+        }
+    }
+    .about_right{
+        width: calc(50% + 185px);
+        float: right;
+    }
+    .about_dope_image{
+        img{
+            width: 100%;
+            z-index: 2;
+            position: relative;
+        }
+    }
+}
+.single_about_dope.single_about_dope2{
+    position: relative;
+    top: -90px;
+    .about_left{
+        width: calc(50% - 185px);
+        float: right;
+        overflow: hidden;
+        padding-left: 120px;
+        padding-top: 142px;
+        .about_tittle{
+            left: -95px;
+        }
+        .readmore_btn{
+            margin-top: 45px;
+        }
+    }
+    .about_right{
+        width: calc(50% + 185px);
+        float: left;
+    }
+    .about_dope_image{
+        img{
+            max-width: 100%;
+            z-index: 1;
+        }
+    }
+    .single_trends{
+        p{
+            padding-top: 20px;
+        }
+    }
+}
+.single_trends{
+    padding-top: 30px;
+    h3{
+        font-family: "monB";
+        font-size: 16px;
+        color: $black;
+    }
+    p{
+        line-height: 24px;
+        font-size: 15px;
+        color: $pfont;
+        font-family: $roboto;
+        padding-top: 20px;
+    }
+}
+/* End About area css
+============================================================================================ */
+
+/* Why dope area css
+============================================================================================ */
+.about_dope_area.why_dope_area{
+    .single_about_dope{
+        .about_left{
+            padding: 50px 0px 40px 40px;
+            background: #fdfdfd;
+            margin-top: 60px;
+            .work_experience_area{
+                padding-top: 45px;
+                .single_work_lavel{
+                    padding: 0px 15px;
+                    width: 30%;
+                    float: left;
+                    .single_work_lavel_inner{
+                        text-align: center;
+                        border: 2px solid #f5f5f5;
+                        padding: 32px 0px 32px 0px;
+                        i{
+                            font-size: 64px;
+                            color: $black;
+                        }
+                        h4{
+                            font-size: 16px;
+                            font-family: $incon;
+                            color: $black;
+                            padding-top: 20px;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .about_right{
+            .about_dope_image{
+                .why_dope_slider{
+                    position: relative;
+                    .owl-prev{
+                        
+                        background: url(../img/why-dope-slider/slider_arrow_bg-right.jpg) no-repeat;
+                        bottom: 120px;
+                    }
+                    .owl-next{
+                        background: url(../img/why-dope-slider/slider_arrow_bg.jpg) no-repeat;
+                        bottom: 185px;
+                    }
+                    .owl-prev, .owl-next{
+                        height: 64px;
+                        width: 64px;
+                        position: absolute;
+                        left: -32px;
+                        z-index: 2;
+                        text-align: center;
+                        line-height: 70px;
+                        cursor: pointer;
+                        &:before{
+                            content: "";
+                            background: rgba(255, 8, 55, .85);
+                            width: 100%;
+                            height: 100%;
+                            left: 0px;
+                            top: 0px;
+                            position: absolute;
+                            z-index: -1;
+                        }
+                        i{
+                            text-align: center;
+                            color: #fff;
+                            font-size: 30px;
+                            font-weight: 200;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* End Why dope area css
+============================================================================================ */
+
+.about_full{
+	.single_about_dope{
+		background: #f8f8f8;
+		.about_left{
+			width: calc(50% - 145px);
+			padding: 155px 50px 0;
+			.feature_tittle{
+				text-align: center;
+			}
+			p{
+				text-align: center;
+				padding-right: 0;
+			}
+		}
+		.about_right{
+			width: calc(50% + 145px);
+		}
+	}
+	.single_about_dope2{
+		.about_left{
+			padding: 245px 0 0 115px;
+			.single_trends{
+				padding-bottom: 30px;
+				padding-top: 0;
+			}
+			p{
+				text-align: left;
+			}
+		}
+		.about_right{
+			
+		}
+	}
+}
+.about_dope_area.about_full{
+    .single_about_dope.single_about_dope2{
+        .about_right{
+            
+        }
+        .about_left{
+            
+        }
+    }
+}
+/* End Why dope area css
+============================================================================================ */

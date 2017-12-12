@@ -1,0 +1,62 @@
+.progress_area{
+    background:#fff;
+    z-index: 2;
+    position: relative;
+    padding: 70px 0px 20px;
+	.progress_inner{
+		
+	}
+}
+.expertise_content{
+    .our_skill_inner{
+        .single_skill{
+            h3{
+                font-family: "monB";
+                font-size: 16px;
+                color: #000;
+                padding-bottom: 15px;
+            }
+            .progress{
+                height: 10px;
+                border: 2px solid #f7f7f7;
+                margin-bottom: 50px;
+                overflow: visible;
+                position: relative;
+                box-shadow: none;
+                background: #fff;
+                border-radius: 0px;
+                box-shadow: none;
+                .counter{
+                    position: absolute;
+                    top: -35px;
+                    right: 34px;
+                }
+                .exten{
+                    position: absolute;
+                    top: -35px;
+                    right: 0;
+                }
+                .progress-bar{
+                    height: 4px;
+                    background: #000;
+                    margin-top: 1px;
+                    position: relative;
+                    &:before{
+                        content: '';
+                        position: absolute;
+                        right: 0;
+                        top: -8px;
+                        height: 20px;
+                        width: 1px;
+                        background: #000;
+                    }
+                    .progress_parcent{
+                        font: normal 15px $roboto;
+                        color: $pfont;
+
+                    }
+                }
+            }
+        }
+    }
+}

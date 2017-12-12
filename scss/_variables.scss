@@ -1,0 +1,51 @@
+/*font Variables*/
+$roboto: 'Roboto', sans-serif;
+$incon: 'Inconsolata', monospace;
+
+/*Color Variables*/
+
+$basecolor: #ff0837;
+$black: #000;  
+$pfont: #434343;
+$pest: #10b3c4;
+
+
+
+// Mixins
+@mixin transition($property: all, $duration: 400ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+// Font family link
+
+@import 'https://fonts.googleapis.com/css?family=Inconsolata:400,700|Roboto:100,300,300i,400,400i,500,700,900';
+
+@font-face {
+    font-family: "monR";
+    src: url(../fonts/theme-font/Montserrat-Regular.woff);
+}
+@font-face {
+    font-family: "monUL";
+    src: url(../fonts/theme-font/Montserrat-UltraLight.woff);
+}
+@font-face {
+    font-family: "monB";
+    src: url(../fonts/theme-font/Montserrat-Bold.woff);
+}
+@font-face {
+    font-family: "monH";
+    src: url(../fonts/theme-font/Montserrat-Hairline.woff);
+}
+@font-face {
+    font-family: "monSB";
+    src: url(../fonts/theme-font/Montserrat-SemiBold.woff);
+}

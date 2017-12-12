@@ -1,0 +1,85 @@
+.page_header_area{
+	padding: 0 60px;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+	.page_header{
+		background: url("../img/page_header.jpg") no-repeat scroll;
+		padding: 115px 0 148px 155px;
+        background-attachment: fixed;
+//        position: absolute;
+//        min-height: 400px;
+//        width: 100%;
+//        height: 100%;
+		h2{
+			font-family: "monR";
+			font-size: 36px;
+			color: #fff;
+			line-height: 1;
+			padding-bottom: 20px;
+		}
+		.breadcrumb{
+			background: transparent;
+			padding: 0;
+			li{
+				font: normal 16px $incon;
+				color: #fff;
+				&:before{
+					display: none;
+				}
+				&:last-child{
+					&:before{
+						content: "\f3d3";
+						font-family: "Ionicons";
+						display: inline-block;
+					}
+				}
+				
+				&.active{
+					
+				}
+				a{
+					font: normal 16px $incon;
+					color: #fff;
+				}
+			}
+		}
+		img{
+			
+		}
+		p{
+			font: normal 15px/24px $roboto;
+			color: #fff;
+			max-width: 750px;
+			display: block;
+			padding-top: 45px;
+		}
+        &.page_header2{
+            background: url("../img/page_header2.jpg") no-repeat scroll;
+            background-attachment: fixed;
+        }
+        &.page_header3{
+            background: url("../img/page_header3.jpg") no-repeat scroll;
+            background-attachment: fixed;
+        }
+        &.page_header4{
+            background: url("../img/page_header4.jpg") no-repeat scroll;
+            background-attachment: fixed;
+        }
+        &.page_header5{
+            background: url("../img/page_header5.jpg") no-repeat scroll;
+            background-attachment: fixed;
+        }
+        &.page_header6{
+            background: url("../img/page_header6.jpg") no-repeat scroll;
+            background-attachment: fixed;
+        }
+        &.page_header7{
+            background: url("../img/page_header7.jpg") no-repeat scroll;
+            background-attachment: fixed;
+        }
+	}
+    .contact_form{
+        top: auto;
+    }
+}

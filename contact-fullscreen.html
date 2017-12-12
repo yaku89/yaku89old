@@ -25,11 +25,8 @@
         <link href="vendors/swiper-slider/css/swiper.min.css" rel="stylesheet">
         <!-- Owl Slider css -->
         <link href="vendors/owl-carousel/owl.carousel.css" rel="stylesheet">
-        <link href="vendors/owl-carousel/owl.theme.default.css" rel="stylesheet">
         <!-- Lightbox css -->
         <link href="vendors/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <!-- Animate css -->
-        <link href="vendors/animate-css/animate.css" rel="stylesheet">
         <link href="vendors/scrollbar/jquery.mCustomScrollbar.min.css" rel="stylesheet">
 
         <link href="css/style.css" rel="stylesheet">
@@ -44,12 +41,12 @@
         
     </head>
     <body>
-        <div id="preloader">
+       <div id="preloader">
             <div id="preload_inner">
                 <i class="loading"></i>
             </div>
         </div>
-       <div class="offcanvas_menu">
+        <div class="offcanvas_menu">
             <div class="offcanvas_menu_inner">
                 <ul class="nav navbar-nav">
                     <li class="dropdown submenu">
@@ -103,7 +100,7 @@
                 </ul>
             </div>
         </div>
-        <!--==========First Header==========-->
+   		<!--==========First Header==========-->
         <header class="main_header_area">
             <div class="logo_area pull-left">
                 <div class="nav-button">
@@ -135,121 +132,101 @@
             </div>
         </header>
         <!--==========First Header==========-->
-        
-        <!--==========Home Slider area==========-->
-        <section class="home_slider">
-           <div class="home_two_slider">
-               <div class="item">
-                   <img src="img/fullscreen-slider/full-slider-1.jpg" alt="">
-                   <a class="preview_btn" href="img/fullscreen-slider/full-slider-1.jpg" data-lightbox="image-1"><i class="ion-ios-close-outline"></i>Preview</a>
-               </div>
-               <div class="item">
-                   <img src="img/fullscreen-slider/full-slider-2.jpg" alt="">
-                   <a class="preview_btn" href="img/fullscreen-slider/full-slider-2.jpg" data-lightbox="image-1"><i class="ion-ios-close-outline"></i>Preview</a>
-               </div>
-               <div class="item">
-                   <img src="img/fullscreen-slider/full-slider-1.jpg" alt="">
-                   <a class="preview_btn" href="img/fullscreen-slider/full-slider-1.jpg" data-lightbox="image-1"><i class="ion-ios-close-outline"></i>Preview</a>
-               </div>
-               <div class="item">
-                   <img src="img/fullscreen-slider/full-slider-2.jpg" alt="">
-                   <a class="preview_btn" href="img/fullscreen-slider/full-slider-2.jpg" data-lightbox="image-1"><i class="ion-ios-close-outline"></i>Preview</a>
-               </div>
-               <div class="item">
-                   <img src="img/fullscreen-slider/full-slider-1.jpg" alt="">
-                   <a class="preview_btn" href="img/fullscreen-slider/full-slider-1.jpg" data-lightbox="image-1"><i class="ion-ios-close-outline"></i>Preview</a>
-               </div>
-           </div>
+  
+		<!--==========Contact Us area==========-->
+        <section class="contact_area contact_full">
+			<div class="row contact_us m0">
+<!--
+				<div class="col-md-7 contact_left">
+					<div class="contact_link">
+						<div class="section_tittle contact_title">
+							<h2>Contact Us</h2>
+							<img src="img/tittle-dotted.jpg" alt="">
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem</p>
+						</div>
+					</div>
+				</div>
+-->
+				<div class="contact_us_left">
+                    <div class="contact_us_left_inner">
+                        <div class="section_tittle contact_title">
+                            <h2>Contact Us</h2>
+                            <img src="img/tittle-dotted.jpg" alt="">
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem</p>
+                        </div>
+                        <div class="contact_link_inner">
+                            <div class="row all_links">
+                                <div class="col-md-4 col-sm-6 single_link">
+                                    <h5>Phones</h5>
+                                    <a href="88001234567">8 800 123 45 67</a>
+                                </div>
+                                <div class="col-md-4 col-sm-6 single_link">
+                                    <h5>E-mail</h5>
+                                    <a href="www.invader@gmail.com">wwweb.invader@gmail.com</a>
+                                </div>
+                                <div class="col-md-4 col-sm-6 single_link office_link">
+                                    <h5>Our Address</h5>
+                                    <a href="88001234567">Brooklyn-Battery Tunnel, New York, NY <b>USA</b></a>
+                                </div>
+                                <div class="col-md-4 col-sm-6 single_link">
+                                    <h5>Skype</h5>
+                                    <a href="">yourskypeid</a>
+                                </div>
+                                <div class="col-md-4 col-sm-6 single_link">
+                                    <h5>Follow Us</h5>
+                                    <ul class="nav">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row contac_form">
+                                <form class="form-inline" action="contact_process.php" method="post" id="contactForm">
+                                    <div class="form-group col-md-4">
+                                        <input type="text" class="form-control input_box" id="name" name="name" placeholder="Your Name">
+                                        <i class="ion-person"></i>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <input type="text" class="form-control input_box" id="email" name="email" placeholder="Your Email">
+                                        <i class="ion-android-folder"></i>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <input type="text" class="form-control input_box" id="website" name="website" placeholder="Your Website">
+                                        <i class="ion-earth"></i>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <textarea class="form-control" rows="3" id="message" name="message" placeholder="Enter a message"></textarea>
+                                        <i class="ion-ios-compose"></i>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn btn-default">Submit Your Request</button>
+                                    </div>
+                                </form>
+                                <div id="success">
+                                    <p>Your text message sent successfully!</p>
+                                </div>
+                                <div id="error">
+                                    <p>Sorry! Message not sent. Something went wrong!!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+				<div class="map_right">
+				    <div id="googleMap" class="row m0" data-map-marker="img/map-indicator.png"></div>
+				</div>
+				<!--MapBox-->
+				
+			</div>
         </section>
-        <div class="contact_form">
-            <div class="rotate_contact_btn"><span><i class="ion-email"></i><a href="#">Contact Form</a></span></div>
+        <div class="contact_form home_btn">
+            <a href="index.html"><i class="ion-home"></i><span>Back to Home</span></a>
         </div>
-        <!--==========End Home Slider area==========-->
+        <!--==========End Contact Us area==========-->
         
-        <div id="offcanvas_hide_trigger" class=""></div>
-        <!--==========First Header==========-->
-        <div class="offcanvas_from mCustomScrollbar scroll_content" data-mcs-theme="dark">
-            <div class="offcanvas_inner">
-                <div class="feature_tittle">
-                    <h2>Contact Us</h2>
-                    <img src="img/tittle-dotted.jpg" alt="" class="mCS_img_loaded">
-                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. </p>
-                    <div class="close-share wr-contact-colse visover"></div>
-                </div>
-                <div class="row contac_form">
-                    <form class="form-inline">
-                        <div class="form-group col-md-12">
-                            <input type="text" class="form-control input_box" id="fullname" placeholder="Your Name">
-                            <i class="ion-person"></i>
-                        </div>
-                        <div class="form-group col-md-12">
-                            <input type="text" class="form-control input_box" id="email" placeholder="Your Email">
-                            <i class="ion-android-folder"></i>
-                        </div>
-                        <div class="form-group col-md-12">
-                            <input type="text" class="form-control input_box" id="website" placeholder="Your Website">
-                            <i class="ion-earth"></i>
-                        </div>
-                        <div class="form-group col-md-12">
-                            <textarea class="form-control" rows="3" placeholder="Enter a message"></textarea>
-                            <i class="ion-ios-compose"></i>
-                        </div>
-                        <div class="col-md-12">
-                            <button type="submit" class="btn btn-default">Submit Your Request</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="contact_details_side">
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="contact_information">
-                                <h5>Phones</h5>
-                                <h6>8 800 123 45 67</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="contact_information">
-                                <h5>Skype</h5>
-                                <h6>yourskypeid</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="contact_information">
-                                <h5>Follow Us</h5>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="contact_information">
-                                <h5>E-mail</h5>
-                                <h6>wwweb.invader@gmail.com</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="contact_information">
-                                <h5>Our Address</h5>
-                                <h6>Brooklyn-Battery Tunnel, New York, NY <span>USA</span></h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!--==========Footer style2 area==========-->
+        <!--==========Footer area==========-->
         <footer class="footer_style2">
             <div class="pull-left footer_left_content">
                 <h4>© All rights reserved. Since 2015</h4>
@@ -258,10 +235,10 @@
                 <h4>wwweb.invader@gmail.com  /  8 800 123 45 67</h4>
             </div>
         </footer>
-        <!--==========End Footer style2 area==========-->
-      
-      
-      
+        <!--==========End Footer area==========-->
+        
+        
+        
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="js/jquery-2.1.4.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -270,17 +247,27 @@
         <script src="vendors/swiper-slider/js/swiper.min.js"></script>
         <!-- Owl Slider -->
         <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <!-- Google Map js -->
+         <!--gmaps Js-->
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script src="js/google-map.js"></script>
+       
+        <!-- Counter js -->
+        <script src="vendors/counter/cdn.js"></script>
+        <script src="vendors/counter/waypoints.min.js"></script>
+        <script src="vendors/counter/jquery.counterup.min.js"></script>
+        
+        <!-- CountDown js -->
+        <script type="text/javascript" src="vendors/countdown/jquery.countdown.min.js"></script>
+        <!-- contact js -->
+        <script src="js/jquery.form.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/contact.js"></script>
         <!-- Isotope js -->
         <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
         <script src="vendors/isotope/isotope.pkgd.min.js"></script>
         <!-- Lightbox js -->
         <script src="vendors/lightbox/js/lightbox.min.js"></script>
-        <!-- CountDown js -->
-        <script type="text/javascript" src="vendors/countdown/jquery.countdown.min.js"></script>
-        <!-- Counter js -->
-        <script src="vendors/counter/cdn.js"></script>
-        <script src="vendors/counter/waypoints.min.js"></script>
-        <script src="vendors/counter/jquery.counterup.min.js"></script>
         <script src="vendors/scrollbar/jquery.mCustomScrollbar.min.js"></script>
         
         <script src="js/theme.js"></script>

@@ -1,0 +1,499 @@
+.contact_area{
+    background: #fdfdfd;
+    padding-top: 60px;
+    z-index: 2;
+    position: relative;
+	.contact_us{
+		position: relative;
+		.contact_link{
+			position: relative;
+            z-index: 2;
+			.section_tittle{
+				h2{
+					padding-bottom: 30px;
+				}
+			}
+		}
+		iframe{
+			
+		}
+        #googleMap{
+            width: 100%;
+            min-height: 1140px;
+        }
+        .col-md-7{
+            .contact_link_inner{
+                position: relative;
+                bottom: 0;
+            }
+        }
+	}
+    &.contact_area_onepage{
+        .contact_us{
+            #googleMap{
+                position: absolute;
+                right: 15px;
+                width: 670px;
+                min-height: 530px;
+                z-index: 1;
+            }
+        }
+    }
+}
+.contact_link_inner{
+    padding-left: 30px;
+    z-index: 1;
+    background: #fff;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 150px;
+    max-width: 930px;
+    p{
+        font: normal 15px/24px $roboto;
+        color: $pfont;
+        padding: 40px 0;
+    }
+    .media{
+        margin: 0;
+        padding-bottom: 30px;
+        &:last-child{
+            padding-bottom: 0;
+        }
+        .media-left{
+            border: 2px solid #f7f7f7;
+            text-align: center;
+            padding: 38px 38px 34px;
+            .media_left_inner{
+                width: 110px;
+                i{
+                    color: #000;
+                    font-size: 64px;
+                }
+                h5{
+                    font: normal 16px/22px $incon;
+                    color: #000;
+                    padding-top: 20px;
+                }
+            }
+        }
+        .media-body{
+            padding: 20px 0 0 30px;
+            .single_link{
+                width: 50%;
+                float: left;
+                padding-bottom: 35px;
+                h5{
+                    font-family: "monB";
+                    font-weight: bold;
+                    font-size: 16px;
+                    color: #000;
+                }
+                a{
+                    font: normal 16px/24px $roboto;
+                    color: $pfont;
+                    padding: 16px 0 0;
+                    display: block;
+                }
+                ul{
+                    padding-top: 20px;
+                    li{
+                        display: inline-block;
+                        margin-right: 14px;
+                        a{
+                            color: #cccccc;
+                            font-size: 15px;
+                            padding: 0px;
+                            @include transition;
+                        }
+                        &:hover{
+                            a{
+                                color: $black;
+                            }
+                        }
+                    }
+                }
+            }
+            .office_link{
+                width: 100%;
+                h6{
+                    font: bold 15px/24px $roboto;
+                }
+            }
+        }
+    }
+    .contac_form{
+        padding: 20px 0px 0px 0px;
+    }
+}
+.all_links{
+    text-align: left;
+    padding-top: 45px;
+    .single_link{
+        padding-bottom: 10px;
+        h5{
+            font-family: "monB";
+            font-weight: bold;
+            font-size: 16px;
+            color: #000;
+            padding-bottom: 16px;
+        }
+        a{
+            font: normal 16px/24px $roboto;
+            color: $pfont;
+            display: block;
+        }
+        .nav{
+            li{
+                display: inline-block;
+                a{
+                    padding: 0 8px;
+                    i{
+                        font-size: 15px;
+                        color: #000;
+                        line-height: 24px;
+                        @include transition;
+                    }
+                    &:hover{
+                        background: transparent;
+                        i{
+                            color: $pest;
+                        }
+                    }
+                }
+            }
+        }
+        &.office_link{
+            margin-right: -15px;
+            padding-right: 0px;
+        }
+    }
+}
+.contact_full{
+	padding: 0 60px;
+	background: #fff;
+	position: relative;
+	.contact_us{
+		background: #f8f8f8;
+		.contact_left{
+			padding: 0;
+			text-align: center;
+			.contact_link{
+			}
+		}
+	}
+}
+.section_tittle{
+    &.contact_title{
+        text-align: center;
+        padding-top: 155px;
+        h2{
+            padding-bottom: 15px;
+        }
+        p{
+            padding: 40px 30px 55px;
+            display: block;
+        }
+    }
+}
+.contac_form{
+    padding: 85px 0 70px;
+    form{
+        .form-group{
+            position: relative;
+            &:last-child{
+                padding-bottom: 0 !important;
+            }
+            input{
+                width: 100%;
+                height: 55px;
+                border: 2px solid #f5f5f5;
+                border-radius: 0;
+                box-shadow: none;
+                margin-bottom: 20px;
+                padding: 0px 15px;
+                &:focus{
+                    outline: 0;
+                    box-shadow: none;
+                    border: 2px solid #000;
+                }
+                @include placeholder{
+                    font: normal 16px/55px $incon;
+                    color: #000;
+                }
+            }
+            i{
+                position: absolute;
+                font-size: 21px;
+                top: 16px;
+                right: 35px;
+                line-height: 1;
+            }
+            textarea{
+                width: 100%;
+                height: 225px;
+                border: 2px solid #f5f5f5;
+                border-radius: 0;
+                resize: none;
+                padding: 15px 12px;
+                box-shadow: none;
+                &:focus{
+                    outline: 0;
+                    box-shadow: none;
+                    border: 2px solid #000;
+                }
+                @include placeholder{
+                    font: normal 16px $incon;
+                    color: #000;
+                }
+            }
+        }
+        button{
+            background: #f5f5f5;
+            border: 0;
+            border-radius: 0;
+            width: 100%;
+            height: 56px;
+            margin: 0;
+            @include transition;
+            outline: none;
+            box-shadow: none;
+            &:hover, &:focus{
+                background: #000;
+                color: #fff;
+                outline: none;
+                box-shadow: none;
+            }
+        }
+    }
+    #success{
+        padding-left: 15px;
+        display: none;
+    }
+    #error{
+        padding-left: 15px;
+        display: none;
+    }
+}
+/* Contact details area css
+============================================================================================ */
+.contact_details_area{
+    padding: 60px 0px;
+    background: #fff;
+    z-index: 1;
+    position: relative;
+}
+.contact_details_icon{
+    text-align: center;
+    border: 2px solid #f7f7f7;
+    width: 100%;
+    padding: 34px 0px;
+    i{
+        font-size: 64px;
+        color: $black;
+    }
+    h3{
+        font-size: 16px;
+        font-family: $incon;
+        padding-top: 20px;
+    }
+}
+.contact_information{
+    padding-top: 25px;
+    h5{
+        font-family: "monB";
+        font-size: 16px;
+        color: $black;
+        padding-bottom: 15px;
+        
+    }
+    h6{
+        color: $pfont;
+        font-family: $roboto;
+        font-size: 15px;
+        span{
+            font-weight: bold;
+            display: block;
+        }
+    }
+    ul{
+        li{
+            display: inline-block;
+            margin-right: 14px;
+            a{
+                color: #cccccc;
+                font-size: 15px;
+                padding: 0px;
+                @include transition;
+            }
+            &:hover{
+                a{
+                    color: $black;
+                }
+            }
+        }
+    }
+}
+.address_icon{
+    .media{
+        .media-left{
+            padding-right: 30px;
+            .contact_details_icon{
+                width: 170px;
+            }
+        }
+        .media-body{
+            h4{
+                font-family: "monB";
+                font-size: 16px;
+                color: $black;
+                padding-bottom: 15px;
+                padding-top: 20px;
+            }
+            h5{
+                color: $pfont;
+                font-family: $roboto;
+                font-size: 15px;
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+/* End Contact details area css
+============================================================================================ */
+
+/* Contact us area css
+============================================================================================ */
+.contact_us_area{
+    background: #fdfdfd;
+    padding-top: 60px;
+    z-index: 1;
+    position: relative;
+    .feature_tittle{
+        text-align: center;
+    }
+}
+/* End Contact us area css
+============================================================================================ */
+
+/* fulluid map area css
+============================================================================================ */
+.fuluid_map_area{
+    position: relative;
+    z-index: 1;
+    .full_map{
+        min-height: 530px;
+        width: 100%;
+    }
+    .dope_map_indecator{
+        position: absolute;
+        width: 136px;
+        height: 136px;
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: url(../img/map-macker.jpg) no-repeat scroll center center;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        right: 0px;
+        h4{
+            font-size: 36px;
+            font-family: "monSB";
+            color: #fff;
+            padding-top: 45px;
+        }
+        &:before{
+            content: "";
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 9.5px 10px 9.5px;
+            border-color: transparent transparent #fff transparent;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 0px;
+
+        }
+    }
+}
+/* End fulluid map area css
+============================================================================================ */
+
+.contact_full{
+	padding: 0 60px;
+	background: #fff;
+	position: relative;
+	.contact_us{
+		background: #f8f8f8;
+		.contact_left{
+			padding: 0;
+			text-align: center;
+			.contact_link{
+				.contact_title{
+					width: 68%;
+					padding-top: 155px;
+					h2{
+						
+					}
+					p{
+						padding: 40px 30px 55px;
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Comment from area css
+============================================================================================ */
+.comment_from_area{
+    background: #fdfdfd;
+    padding: 30px;
+    .feature_tittle{
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    .contac_form{
+        padding: 0px;
+        .form-inline{
+            .form-group{
+                input{
+                    background: #fdfdfd;
+                    @include transition;
+                    &:focus{
+                        background: #fff;
+                        border: 2px solid #f5f5f5;
+                    }
+                }
+                textarea{
+                    background: #fdfdfd;
+                    @include transition;
+                    &:focus{
+                        background: #fff;
+                        border: 2px solid #f5f5f5;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contact_us_left{
+    width: calc(50% - 150px);
+    float: left;
+    overflow: hidden;
+    .contact_us_left_inner{
+        min-height: 1140px;
+    }
+}
+.map_right{
+    width: calc(50% + 150px);
+    float: right;
+}
